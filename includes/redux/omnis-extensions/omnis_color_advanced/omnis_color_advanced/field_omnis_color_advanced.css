@@ -1,0 +1,30 @@
+.redux-color-advanced-container .omnis-color-advanced-field {
+  width: 80%;
+}
+.redux-color-advanced-container .omnis-color-advanced-field .button {
+  height: 40px;
+  background: #fff;
+}
+.redux-color-advanced-container .omnis-color-advanced-field .button.asColorPicker-clear {
+  display: flex;
+  align-items: center;
+}
+
+.redux-color-advanced-container .omnis-color-advanced-field .asColorPicker-trigger.empty:before {
+    top: 30px;
+    transform: rotate(45deg) translateX(-50%);
+}
+
+.redux-color-advanced-container .omnis-color-advanced-field .asColorPicker-trigger.empty:after {
+    top: 7px;
+    transform: rotate(-45deg) translateX(-50%);
+}
+
+.redux-color-advanced-container .omnis-color-advanced-field .asColorPicker-trigger.empty:before,
+.redux-color-advanced-container .omnis-color-advanced-field .asColorPicker-trigger.empty:after {
+    content: "";
+    border: 1px solid #999;
+    position: absolute;
+    left: 50%;
+    width: 30px;
+}
