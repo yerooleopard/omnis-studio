@@ -250,3 +250,100 @@ if(!function_exists('aq_resize')) {
 }
 
 
+
+
+if (!function_exists('omnis_image_resize')) {
+    function omnis_image_resize( $attachment_id, $width, $height, $crop = true, $single = false ) {
+        $path = get_attached_file( $attachment_id );
+        if ( ! file_exists( $path ) ) {
+            return false;
+        }
+
+        $upload    = wp_upload_dir();
+        $path_info = pathinfo( $path );
+        $base_url  = $upload['baseurl'] . str_replace( $upload['basedir'], '', $path_info['dirname'] );
+        
+        // Return original if fails
+        $_img_url = "{$base_url}/{$path_info['basename']}";
+        $_img_width = $_img_height = null;
+
+        $meta = wp_get_attachment_metadata( $attachment_id );
+        
+        $_img_width = (!empty($meta['width'])) ? $meta['width'] : null;
+        $_img_height = (!empty($meta['height'])) ? $meta['height'] : null;
+
+        foreach ( $meta['sizes'] as $key => $size ) {
+            if ( $size['width'] == $width && $size['height'] == $height ) {
+                $_img_url = "{$base_url}/{$size['file']}";
+            }
+        }
+        
+        // Generate new size
+        if ($meta['width'] >= $width && $meta['height'] >= $height) {
+            $key  = sprintf( 'resized-%dx%d', $width, $height );
+
+            if (empty($meta['sizes'][$key])) {
+                $resized = image_make_intermediate_size( $path, $width, $height, $crop );
+                if ( $resized && ! is_wp_error( $resized ) ) {
+                    // Let metadata know about our new size.
+                    $key                 = sprintf( 'resized-%dx%d', $width, $height );
+                    $meta['sizes'][$key] = $resized;
+                    wp_update_attachment_metadata( $attachment_id, $meta );
+                    $_img_url = "{$base_url}/{$resized['file']}";
+
+                    $_img_width = $resized['width'];
+                    $_img_height = $resized['height'];
+                }
+            } else if (!empty($meta['sizes'][$key])) {
+                $resized = $meta['sizes'][$key];
+                
+                $_img_url = "{$base_url}/{$resized['file']}";
+                $_img_width = $resized['width'];
+                $_img_height = $resized['height'];
+            }
+            
+            $retina_w = intval($_img_width)*2;
+            $retina_h = intval($_img_height)*2;
+
+            if ($meta['width'] >= $retina_w && $meta['height'] >= $retina_h) {
+
+                $key_2x  = sprintf( 'resized-%dx%d', $retina_w, $retina_h );
+
+                if (empty($meta['sizes'][$key_2x])) {
+                    $resized_x2 = image_make_intermediate_size( $path, $retina_w, $retina_h, $crop );
+                    
+                    if ( $resized_x2 && ! is_wp_error( $resized_x2 ) ) {
+                        // Let metadata know about our new size.
+                        $meta['sizes'][$key_2x] = $resized_x2;
+                        wp_update_attachment_metadata( $attachment_id, $meta );
+                        $_img_url_x2 = "{$base_url}/{$resized_x2['file']}";
+                    }
+                } else if (!empty($meta['sizes'][$key_2x])) {
+                    $resized = $meta['sizes'][$key_2x];
+                    
+                    $_img_url_x2 = "{$base_url}/{$resized['file']}";
+                }
+            }
+        }
+        
+        // Return the output.
+        if ( $single ) {
+            // str return.
+            $image = $_img_url;
+        } else {
+            // array return.
+            $image = array (
+                0 => $_img_url,
+                1 => $_img_width,
+                2 => $_img_height,
+                'retina2x' => (!empty($_img_url_x2)) ? $_img_url_x2 : false,
+            );
+        }
+
+        return $image;
+    }
+}
+
+
+
+
