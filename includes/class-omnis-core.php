@@ -114,6 +114,8 @@ class Omnis_Core {
 		require_once plugin_dir_path( __FILE__ ) . 'omnis-post-types.php';
 		require_once plugin_dir_path( __FILE__ ) . 'omnis-shortcodes.php';
 		require_once plugin_dir_path( __FILE__ ) . 'omnis-breadcrumbs.php';
+
+		require_once plugin_dir_path( __FILE__ ) . 'tinymce/insert-component.php';
 		
 		require_once plugin_dir_path( __FILE__ ) . 'external/images/aq_resizer.php';
 		require_once plugin_dir_path( __FILE__ ) . 'external/images/fastimage.php';

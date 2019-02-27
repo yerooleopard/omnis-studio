@@ -133,6 +133,19 @@ function omnis_shortcode_content( $atts ) {
 }
 add_shortcode( 'omnis_content', 'omnis_shortcode_content' );
 
+// [omnis_extra_content]
+function omnis_shortcode_extra_content( $atts ) {
+    $omnis_options = (function_exists('omnis_opts')) ? omnis_opts() : '';
+    $content = (!empty($omnis_options['post_omnis__page-extra-content'])) ? $omnis_options['post_omnis__page-extra-content'] : false;
+    
+    $content = preg_replace('/\[vc\_row\b/', '[vc_row template_container="section" ', $content);
+
+    if ($content) {
+        return do_shortcode($content, false);
+    }
+}
+add_shortcode( 'omnis_extra_content', 'omnis_shortcode_extra_content' );
+
 // [omnis_cats]
 function omnis_shortcode_meta_cats( $atts ) {
     $atts = shortcode_atts( array(
