@@ -641,7 +641,7 @@ function omnis_shortcode_share( $atts ) {
             ),
             'twitter' => array(
                 'name' => esc_html__('Twitter', 'omnis'),
-                'share_url' => 'https://twitter.com/intent/tweet?text='. esc_url(get_the_title()) .' – '. esc_url(wp_get_shortlink()),
+                'share_url' => 'https://twitter.com/intent/tweet?text='. esc_html(get_the_title()) .' – '. esc_url(wp_get_shortlink()),
             ),
             'pinterest' => array(
                 'name' => esc_html__('Pinterest', 'omnis'),
@@ -649,7 +649,7 @@ function omnis_shortcode_share( $atts ) {
             ),
             'reddit' => array(
                 'name' => esc_html__('Reddit', 'omnis'),
-                'share_url' => 'https://www.reddit.com/submit?url='. esc_url(get_the_permalink()) .'&title=' . esc_url(get_the_title()),
+                'share_url' => 'https://www.reddit.com/submit?url='. esc_url(get_the_permalink()) .'&title=' . esc_html(get_the_title()),
             ),
             'copy-to-clipboard' => array(
                 'name' => esc_html__('Copy URL To Clipboard', 'omnis'),
@@ -657,7 +657,7 @@ function omnis_shortcode_share( $atts ) {
             ),
             'email' => array(
                 'name' => esc_html__('Email', 'omnis'),
-                'share_url' => 'mailto:?subject='. esc_url(get_the_permalink()). '&body='. esc_url(get_the_title()).' – '. esc_url(get_the_permalink()),
+                'share_url' => 'mailto:?subject='. esc_url(get_the_permalink()). '&body='. esc_html(get_the_title()).' – '. esc_url(get_the_permalink()),
             ),
         );
 
