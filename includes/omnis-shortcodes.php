@@ -18,11 +18,25 @@ function omnis_shortcode_title( $atts ) {
     if (is_singular() || is_page()) {
         $_title = (!empty($omnis_options['post_omnis__page-title-custom'])) ? $omnis_options['post_omnis__page-title-custom'] : get_the_title();
     } else if (is_archive()) {
-        $_title = esc_html__( 'Archive', 'omnis' );
-    } else if (is_tag()) {
-        $_title = esc_html__( 'Tag', 'omnis' );
-    } else if (is_author()) {
-        $_title = esc_html(get_the_author_meta('display_name', $post->post_author));
+        $_title = sprintf(esc_html__('Archive – %s'), single_cat_title('', false));
+
+        if (is_tag()) {
+            $_title = sprintf(esc_html__('Tag – %s'), single_tag_title('', false));
+        } 
+        if (is_author()) {
+            $_author_name = get_the_author_meta('display_name', $post->post_author);
+            $_title = sprintf(esc_html__('Author – %s'), $_author_name);
+        }
+        if (function_exists('is_woocommerce') && is_woocommerce()) {
+            if (is_shop()) {
+                $_title = esc_html__( 'Shop', 'omnis' );
+            } else if (is_product_category()) {
+                $_title = sprintf(esc_html__('Shop – %s'), single_cat_title('', false));
+            } else if (is_product_tag()) {
+                $_title = sprintf(esc_html__('Shop – %s'), single_tag_title('', false));
+            }
+        }
+
     } else if (is_search()) {
         $_title = esc_html__( 'Search', 'omnis' );
     }
@@ -30,6 +44,8 @@ function omnis_shortcode_title( $atts ) {
     if ($force == 'true' && !is_admin()) {
         $_title = get_the_title();
     }
+
+    $_title = apply_filters('omnis_filter__shortcode_title', $_title);
 
     $_custom_url = get_post_meta(get_the_ID(), 'post_omnis__post-custom-url', true);
     $_custom_url = (filter_var($_custom_url, FILTER_VALIDATE_URL) !== false) ? $_custom_url : false;
