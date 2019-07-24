@@ -1,0 +1,380 @@
+.vc_ui-panel .vc_panel-tabs>.vc_edit-form-tab.vc_row[data-tab="omnis_studio"] {
+    margin-bottom: -15px;
+    min-height: 400px;
+    padding: 0;
+}
+
+.omnis-studio {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.omnis-studio.show-preview .omnis-studio__categories-column,
+.omnis-studio.show-preview .omnis-studio__templates-column,
+.omnis-studio__preview {
+    display: none;
+}
+.omnis-studio.show-preview .omnis-studio__preview {
+    display: block;
+}
+
+.omnis-studio__categories-column {
+    display: flex;
+    flex: 1;
+    background: #ffffff;
+}
+
+.omnis-studio__templates-column {
+    background: #fafafa;    
+    padding: 0;
+    padding-right: 30px;
+}
+
+.omnis-studio.loading .omnis-studio__templates-column:before {
+    content: "";
+    background: transparent;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 10;
+}
+
+
+@media (max-width: 860px) {
+    .vc_media-sm .omnis-studio__templates-column {
+        width: 100%;
+    }
+}
+
+
+.omnis-studio__categories {
+    padding: 30px 15px;
+    flex: 1;
+}
+
+.omnis-studio__categories-list {
+    margin: 0;
+    position: sticky;
+    top: 33px;
+}
+
+.omnis-studio__categories-el {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    align-items: flex-start;
+}
+
+.omnis-studio__categories-el a {
+    text-decoration: none;
+    flex: 1;
+    color: #9ca1a6;
+    box-shadow: none;
+    transition: all 0.2s;
+}
+
+.omnis-studio__categories-el.active a,
+.omnis-studio__categories-el a:hover {
+    color: #0473aa;
+}
+
+.omnis-studio__categories-el.active a {
+    font-weight: 600;
+}
+
+.omnis-studio__categories-count {
+    background: #d2d2d2;
+    color: #fff;
+    padding: 0 10px;
+    border-radius: 10px;
+    font-size: 70%;
+    margin-left: 5px;
+    font-weight: 600;
+    transition: all 0.2s;
+}
+
+.omnis-studio__categories-el.active .omnis-studio__categories-count,
+.omnis-studio__categories-el a:hover + .omnis-studio__categories-count {
+    background: #0473aa;
+}
+
+.vc_ui-template-list.vc_ui-list-bar.omnis-studio__templates {
+    /* display: flex; */
+    /* flex-wrap: wrap; */
+    align-items: center;
+    /* margin-left: -45px; */
+    padding-top: 30px;
+    margin-bottom: 0;
+    margin: 0;    
+    column-fill: balance;
+    column-gap: 0;
+}
+
+.omnis-studio__template {
+    padding-left: 30px;
+    padding-bottom: 30px;   
+    box-sizing: border-box;
+    display: block;   
+    -webkit-column-break-inside: avoid;
+    page-break-inside: avoid;
+    break-inside: avoid;
+}
+
+.vc_ui-template-list .omnis-studio__template-inner {
+    box-shadow: 0 1px 1px rgba(0,0,0,.04);
+    border: none;
+    background: #fff;
+    transition: all 0.5s;    
+    display: flex;
+    flex-direction: column;
+    align-items: normal;
+    top: 0;
+}
+
+.vc_ui-template-list .omnis-studio__template-inner:hover {
+    box-shadow: 0 5px 30px rgba(0, 0, 0, 0.05);
+    /* top: -3px; */
+    background: #fff;
+}
+
+.omnis-studio__template {
+    width: 100%;
+}
+/* @media (min-width: 584px) {
+    .omnis-studio__template {
+        width: 50%;
+    }
+}
+@media (min-width: 992px) {
+    .omnis-studio__template {
+        width: 50%;
+    }
+}
+@media (min-width: 1200px) {
+    .omnis-studio__template {
+        width: 33.3333333%;
+    }
+}
+@media (min-width: 1500px) {
+    .omnis-studio__template {
+        width: 25%;
+    }
+    
+    */
+
+.omnis-studio__templates {
+    column-count: 1;
+}
+@media (min-width: 584px) {
+    .omnis-studio__templates {
+        column-count: 2;
+    }
+}
+@media (min-width: 992px) {
+    .omnis-studio__templates {
+        column-count: 2;
+    }
+}
+@media (min-width: 1200px) {
+    .omnis-studio__templates {
+        column-count: 3;
+    }
+}
+@media (min-width: 1500px) {
+    .omnis-studio__templates {
+        column-count: 4;
+    }
+}
+
+.omnis-studio__template.filter--hidden {
+    display: none !important;
+}
+
+.omnis-studio__template-thumb {
+    padding: 10px;
+    padding-bottom: 0;
+}
+
+.omnis-studio__template-thumb a {
+    display: block;
+    position: relative;
+}
+
+.omnis-studio__template-thumb a:focus {
+    box-shadow: none;
+}
+
+.omnis-studio__template-thumb a:before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,.6);
+    left: 0;
+    top: 0;
+    opacity: 0;
+    transition: all 0.2s;
+}
+
+.omnis-studio__template-thumb a:after {
+    content: "\e8b6";    
+    font-family: vcpb-plugin-icons!important;
+    font-style: normal;
+    font-weight: 400;
+    font-variant: normal;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-decoration: none;
+    color: #fff;
+    font-size: 25px;
+    opacity: 0;
+    transition: all 0.2s;
+}
+
+.omnis-studio__template-thumb a:hover:before,
+.omnis-studio__template-thumb a:hover:after {
+    opacity: 1;
+}
+
+.omnis-studio__template-thumb img {
+    max-width: 100%;
+    width: 100%;
+    vertical-align: middle;
+}
+
+.omnis-studio__template-content {
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.omnis-studio__template-title {   
+    display: flex;
+    flex-direction: column;
+    font-weight: 600;
+    font-size: 14px;
+    padding-right: 20px;
+}
+
+.omnis-studio__template-cats {
+    font-weight: 400;
+    font-size: 85%;
+    margin-top: 3px;
+    opacity: .5;
+}
+
+.omnis-studio__template-title + .vc_ui-template-list .omnis-studio__template-add {
+    margin-left: 20px;
+}
+
+.vc_ui-template-list .omnis-studio__template-add a {
+    padding: 0;
+    padding: 0;
+    text-indent: -9999px;
+    display: block;
+    width: 35px;
+    height: 35px;
+    background: #e4e4e4;
+    border-radius: 35px;
+    position: relative;
+    color: #fff;
+    transition: all 0.2s;
+}
+
+
+.vc_ui-template-list .omnis-studio__template-add a:hover,
+.vc_ui-template-list .omnis-studio__template-add a:focus {
+    background: #0473aa;
+    color: #fff;
+    box-shadow: none;
+}
+
+.vc_ui-template-list .omnis-studio__template-add a.loading,
+.vc_ui-template-list .omnis-studio__template-add a.loading:focus {
+    background: #e4e4e4;
+    color: #fff;
+    pointer-events: none;
+}
+
+.vc_ui-template-list .omnis-studio__template-add a:after {
+    content: "\2B";
+    display: block;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    color: inherit;
+    text-indent: 0;
+    font-weight: 600;
+    font-size: 24px;
+}
+
+.vc_ui-template-list .omnis-studio__template-add a.loading:before {
+    content: "";
+    position: absolute;
+    width: 27px;
+    height: 27px;
+    top: 0px;
+    left: 0px;
+    border: 4px solid transparent;
+    border-radius: 100px;
+    border-bottom-color: #0473aa;
+    transform-origin: center;
+    animation: spin 1s infinite cubic-bezier(0.445, 0.150, 0.550, 0.850);
+    background: #e4e4e4;
+}
+
+.vc_ui-template-list .omnis-studio__template-add a.loading:after {
+    content: "";
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+.omnis-studio__preview {
+    width: 100%;
+}
+
+.omnis-studio__preview-content {
+    text-align: center;
+    padding: 30px;
+}
+
+.omnis-studio__preview-image {
+    max-width: 100%;
+}
+
+.omnis-studio__preview-header {
+    display: flex;
+    padding: 5px 20px;
+}
+
+.vc_general.vc_ui-control-button.omnis-studio__preview-back {
+    font-size: 24px;
+    color: #c4c4c4;
+    padding: 0;
+}
+
+.omnis-studio__preview-title {
+    padding-left: 20px;
+}
+
+.vc_templates-panel[data-vc-template-search="true"] .vc_panel-tabs > .vc_row:not(vc-search-result-empty) {
+    margin-bottom: 30px !important;
+}
+
+.vc_templates-panel[data-vc-template-search="true"] .vc_panel-tabs > .vc_row:not(vc-search-result-empty) .omnis-studio__categories-column {
+    display: none;
+}
+
+.vc_templates-panel[data-vc-template-search="true"] .vc_panel-tabs > .vc_row:not(vc-search-result-empty) .omnis-studio__templates-column {
+    width: 100%;
+}

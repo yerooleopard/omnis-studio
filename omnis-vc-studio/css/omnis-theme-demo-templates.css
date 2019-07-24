@@ -1,0 +1,169 @@
+/**
+ * All of the CSS for your public-facing functionality should be
+ * included in this file.
+ */
+
+ @keyframes shadowAnim {
+    0% {
+        box-shadow: 0 0px 0px 0px rgba(33, 150, 243, 0.15);
+    }
+    100% {
+        box-shadow: 0 0px 10px 150px rgba(33, 150, 243, 0);
+    }
+}
+ @keyframes shadowBtnAnim {
+    0% {
+        box-shadow: 0 0px 0px 0px rgba(33, 150, 243, 0.15), 0 2px 3px rgba(0, 0, 0, 0.2);
+    }
+    100% {
+        box-shadow: 0 0px 10px 40px rgba(33, 150, 243, 0), 0 2px 3px rgba(0, 0, 0, 0.2);
+    }
+}
+
+.omnis-demo-templates-options {
+    position: fixed;
+    left: 40px;
+    bottom: 40px;
+    z-index: 200;
+} 
+
+.navigation--side--left .omnis-demo-templates-options {
+    left: auto;
+    right: 100px;
+}
+
+.navigation--side--right .omnis-demo-templates-options {
+    left: 100px;
+}
+
+@media (max-width: 767.98px) {
+    .omnis-demo-templates-options {
+        bottom: 20px;
+        width: calc(100% - 40px * 2);
+        left: 40px !important;
+        right: auto !important;
+    }
+}
+
+ .omnis-demo-templates-switcher {
+     position: absolute;
+     bottom: 0;
+     left: 0;
+     background: #fff;
+     padding: 20px;
+     color: #7b7b7b;
+     box-shadow: 0 1px 4px rgba(0,0,0,.1), 0 10px 30px rgba(0, 0, 0, 0.05);
+     border-radius: 3px;
+     overflow: hidden;
+     width: 400px;
+     display: none;
+ }
+
+ .navigation--side--left .omnis-demo-templates-switcher {
+    left: auto;
+    right: 0;
+}
+
+ @media (max-width: 767.98px) {
+    .omnis-demo-templates-switcher {
+        width: 100%;
+    }
+}
+
+ .switcher-closed .omnis-demo-templates-switcher > * {
+    opacity: 0;
+    transition: 0s;
+ } 
+ 
+ .switcher-opened .omnis-demo-templates-switcher > * {
+    transition: 0.2s 0.2s;
+    opacity: 1;
+}
+
+.omnis-demo-templates-options__top-buttons {
+    display: flex;
+    flex-direction: row;
+    transition: all 0.2s 0.1s;
+    opacity: 1;
+}
+
+ .omnis-demo-templates-options__open-btn {
+    overflow: hidden;
+    animation: shadowBtnAnim 2s infinite;
+    text-transform: capitalize;
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.2);
+ }
+
+ .omnis-demo-templates-options__open-btn a {
+    z-index: 2;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+ }
+
+ .omnis-demo-templates-options__open-btn a i {
+    font-size: 1.40em;
+    margin-right: 10px;
+    height: 1em;
+ }
+
+ .omnis-demo-templates-options__buy-btn {
+    overflow: hidden;
+    margin-left: 10px;
+ }
+ 
+
+ .switcher-opened .omnis-demo-templates-options__top-buttons {
+    opacity: 0;
+    transition: all 0.2s;
+ }
+
+ .omnis-demo-templates-switcher > * {
+     visibility: visible;
+ }
+
+ .omnis-demo-templates-switcher.reloading {
+     pointer-events: none;
+ }
+
+ .omnis-demo-templates-switcher__header {
+    margin-bottom: 10px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+    padding-bottom: 20px;
+ }
+
+ .omnis-demo-templates-switcher__header h6 {
+    color: #1a1a1a;
+    text-transform: capitalize;
+ }
+
+ .omnis-demo-templates-switcher__form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+ }
+
+ .omnis-demo-templates-switcher__reset {
+    margin-top: 10px;
+    border-top: 1px solid rgba(0, 0, 0, 0.05);
+    padding-top: 10px;
+ }
+
+
+ .omnis-demo-templates-switcher__close-btn {
+    position: absolute;
+    top: 0;
+    right: 0;
+ }
+
+ .omnis-demo-templates-switcher__select {
+     color: #1a1a1a !important;
+     background: #fff !important; border-color: rgba(0, 0, 0, 0.1);
+ }
+
+ .omnis-demo-templates-switcher__select option {
+    color: #1a1a1a !important;
+    background: #fff !important;
+ }
+ 
