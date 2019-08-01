@@ -27,7 +27,22 @@
         currentPanelPosition = 0,
         panelContainerScrollPosition = null;
 
-    $('.vc_ui-panel-content-container').on('scroll', function(){
+    function setCatsColHeight() {
+        var panelHeight = omnisStudio.closest('.vc_ui-panel-content-container')[0].getBoundingClientRect().height;
+
+        if (parseInt(panelHeight) !== 0) {
+            omnisStudioCategoriesCol.css('height', panelHeight);
+        }
+    }
+
+    omnisStudioCategoriesCol.on('mouseenter mouseout', function() {
+        setCatsColHeight();
+    });
+    $(window).on('resize', function() {
+        setCatsColHeight();
+    });
+
+    panelContainer.on('scroll', function(){
         currentPanelPosition = $(this).scrollTop();
     });
 
@@ -77,6 +92,5 @@
         $(this).closest('.omnis-studio__categories-list').children('.omnis-studio__categories-el').removeClass('active');
         $(this).closest('.omnis-studio__categories-el').addClass('active');
     });
-
-
+    
 })(jQuery);

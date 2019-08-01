@@ -23,6 +23,9 @@
     display: flex;
     flex: 1;
     background: #ffffff;
+    overflow-y: scroll;
+    position: sticky;
+    top: 3px;
 }
 
 .omnis-studio__templates-column {
@@ -55,8 +58,6 @@
 
 .omnis-studio__categories-list {
     margin: 0;
-    position: sticky;
-    top: 33px;
 }
 
 .omnis-studio__categories-el {
