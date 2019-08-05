@@ -88,13 +88,13 @@ function omnis_vc_studio_elements() {
     ),
     array(
       'id' => 'hero_testimonial_bottom-left',
-      'name' => 'Heading Testimonial w/ Bg & Gradient Overlay',
+      'name' => 'Testimonial w/ Bg & Gradient Overlay',
       'content' => '[vc_row row_section_padding="padding-side:double" row_section_container_width="stretched" row_container_height_custom="80vh" row_container_alignment_v="bottom" row_content_txt_skin="txt--light" row_background_image_overlay="linear-gradient(0deg, #1a1a1a 20%, transparent 100%)" row_background_image_effect="parallax parallax-v" row_background_image_parallax_level="4" row_background_image_external="https://source.unsplash.com/jEqyV_rumuU/2000x1900"][vc_column width="1/3"][vc_column_text]
       <blockquote>
       <h3>Quisque erat enim, posuere at lorem id, eleifend gravida sem. Phasellus eget purus libero.</h3>
       </blockquote>
       <strong>Adam Smith</strong> Art Director[/vc_column_text][/vc_column][/vc_row]',
-      'category' => 'heading, dark-bg, testimonial, full-width',
+      'category' => 'dark-bg, testimonial, full-width',
       'image' => '0.1/hero_testimonial_bottom-left.jpg',
     ),
     array(
@@ -263,21 +263,21 @@ function omnis_vc_studio_elements() {
       'id' => 'hero-headings-splited-section_bg-image_colorful',
       'name' => 'Heading Splited Color w/ BG Image',
       'content' => '[vc_row row_section_padding="padding-side:none|padding-top:none|padding-bottom:none" row_section_container_width="stretched" row_container_height_custom="85vh" row_container_alignment_v="stretch" row_column_content_alignment_v="center" row_columns_gap="none" row_rows_gap="none" row_content_txt_skin="txt--light" row_background_color="#f25037"][vc_column column_padding="padding-top:double|padding-bottom:double|padding-side:double" width="5/12"][vc_custom_heading heading_text="Biggest Feature." heading_container="h5"][vc_custom_heading heading_text="Vivamus pulvinar, nulla in ornare varius." heading_container="h2" heading_typography="size-class:h1-alt"][vc_custom_heading heading_text="Nulla feugiat, magna at cursus vulputate, erat magna posuere nulla, sed efficitur lectus massa vel felis." heading_typography="size-class:leading-size"][vc_text_separator style="zigzag" separator_size="large" separator_width="small"  separator_line_color="rgba(255,255,255,0.2)"][vc_button2 title="Read more" button_color="btn-light" button_size="btn-lg" link="url:%23|||"][/vc_column][vc_column width="7/12" column_background_image_external="https://source.unsplash.com/J1elbTf7En8/1300x1300"][vc_empty_space empty_height="_custom" empty_height_custom="height:50vh"][/vc_column][/vc_row]',
-      'category' => 'hero, heading, image, full-width, colorful, button',
+      'category' => 'hero, image, full-width, colorful, button',
       'image' => '0.1/hero-headings-splited-section_bg-image_colorful.jpg',
     ),
     array(
       'id' => 'hero-headings-splited-section_bg-image_dark',
       'name' => 'Heading Splited Dark w/ BG Image',
       'content' => '[vc_row row_section_padding="padding-side:none|padding-top:none|padding-bottom:none" row_section_container_width="stretched" row_container_height_custom="85vh" row_container_alignment_v="stretch" row_column_content_alignment_v="center" row_columns_gap="none" row_rows_gap="none" row_content_txt_skin="txt--light" row_background_color="#1a1a1a"][vc_column width="5/12" column_background_image_external="https://source.unsplash.com/zAQoZwidDbs/1300x1300"][vc_empty_space empty_height="_custom" empty_height_custom="height:50vh"][/vc_column][vc_column column_padding="padding-top:double|padding-bottom:double|padding-side:double" width="7/12" el_class="padding-right-quad"][vc_custom_heading heading_text="Biggest Feature." heading_container="h5"][vc_custom_heading heading_text="Sed pharetra ultrices purus, sed dapibus nisi porttitor nec." heading_container="h2" heading_typography="size-class:h1-alt"][vc_custom_heading heading_text="Nulla feugiat, magna at cursus vulputate, erat magna posuere nulla, sed efficitur lectus massa vel felis." heading_typography="size-class:leading-size"][vc_text_separator style="zigzag" separator_size="large" separator_width="small" separator_line_color="rgba(255,255,255,0.2)"][vc_button2 title="Read more" button_color="btn-light" button_size="btn-lg" link="url:%23|||"][/vc_column][/vc_row]',
-      'category' => 'hero, heading, image, full-width, dark-bg, button',
+      'category' => 'hero, image, full-width, dark-bg, button',
       'image' => '0.1/hero-headings-splited-section_bg-image_dark.jpg',
     ),
     array(
       'id' => 'hero-headings-splited-section_bg-image_gradient-text',
       'name' => 'Heading Gradient Splited w/ BG Image',
       'content' => '[vc_row row_section_padding="padding-side:none|padding-top:none|padding-bottom:none" row_section_container_width="stretched" row_container_height_custom="85vh" row_container_alignment_v="stretch" row_column_content_alignment_v="center" row_columns_gap="none" row_rows_gap="none" row_force_as_bg="as-background"][vc_column column_padding="padding-top:double|padding-bottom:double|padding-side:double" width="7/12" el_class="padding-right-quad"][vc_custom_heading heading_text="Biggest Feature." heading_container="h5"][vc_custom_heading heading_text="Sed fermentum est ac suscipit molestie." heading_container="h2" heading_typography="size-class:h1-alt" heading_color="linear-gradient(296deg, #fecc87 0%, #fd9649 100%)" heading_color_backup="#fecc87"][vc_custom_heading heading_text="Nulla feugiat, magna at cursus vulputate, erat magna posuere nulla, sed efficitur lectus massa vel felis." heading_typography="size-class:leading-size"][vc_text_separator style="zigzag" separator_size="large" separator_width="small"][vc_button2 title="Read more" button_color="btn-light" button_size="btn-lg" link="url:%23|||"][/vc_column][vc_column width="5/12" column_background_image_external="https://source.unsplash.com/EhesAwz2wNw/1300x1300"][vc_empty_space empty_height="_custom" empty_height_custom="height:50vh"][/vc_column][/vc_row]',
-      'category' => 'heading, image, full-width, dark-bg, button',
+      'category' => 'hero, image, full-width, dark-bg, button',
       'image' => '0.1/hero-headings-splited-section_bg-image_gradient-text.jpg',
     ),
     array(
@@ -351,7 +351,7 @@ function omnis_vc_studio_elements() {
       'id' => 'hero_text-blocks-masonry_2col_960px_dark-bg',
       'name' => 'Heading w/ Text Blocks Masonry - Dark',
       'content' => '[vc_section section_content_txt_skin="txt--light" section_background_color="#1a1a1a"][vc_row row_column_alignment_h="center"][vc_column width="2/3" offset="vc_col-lg-offset-2 vc_col-sm-offset-2"][vc_custom_heading heading_text="Features." heading_container="h5"][vc_custom_heading heading_text="Aliquam erat volutpat." heading_container="h2" heading_typography="size-class:h1-alt"][vc_custom_heading heading_text="Sed nulla massa, mattis porta augue non, consequat semper lacus. Vestibulum sed semper diam." heading_typography="size-class:leading-size"][vc_text_separator style="stripes" separator_size="large" separator_width="small" separator_h_alignment="center"][/vc_column][/vc_row][vc_row row_container_width_custom="960px" row_rows_gap="single"][vc_column width="1/2"][vc_row_inner row_section_padding="padding-top:double|padding-bottom:double|padding-side:double" row_background_color="rgba(255, 255, 255, 0.1)" columns_animation="from-bottom"][vc_column_inner column_hover_options="hide-content" column_hover_url_button_style="color:btn-dark|size:btn-lg" column_hover_url="url:%23|title:Learn%20more||"][vc_single_image image_style="rounded" image_shadow="drop-shadow" image_width="120" image_ratio="1:1" image_external="https://source.unsplash.com/asRF73W3fdY/120x120"][vc_custom_heading heading_text="Cras sollicitudin." heading_container="h2"][vc_column_text]Maecenas gravida tellus vel eros pharetra sit amet fermentum.[/vc_column_text][vc_icon type="material" icon_material="vc-material vc-material-arrow_forward" icon_typography="font-size:24px" icon_text_skin="txt--light" icon_style="bg" icon_bg_shadow="drop-shadow" icon_bg_color="#1a1a1a"][/vc_column_inner][/vc_row_inner][vc_row_inner row_section_padding="padding-top:double|padding-bottom:double|padding-side:double" row_background_color="rgba(255, 255, 255, 0.1)" columns_animation="from-bottom"][vc_column_inner][vc_icon type="fontawesomenew" icon_fontawesomenew="far fa-sun" icon_text_skin="txt--light" icon_style="bg" icon_bg_shadow="drop-shadow" icon_bg_padding_size="3x" icon_bg_color="#1a1a1a"][vc_custom_heading heading_text="Praesent volutpat posuere posuere." heading_container="h2"][vc_column_text]Curabitur vel arcu elementum, sagittis leo ultricies.[/vc_column_text][/vc_column_inner][/vc_row_inner][/vc_column][vc_column width="1/2"][vc_row_inner row_section_padding="padding-top:double|padding-bottom:double|padding-side:double" row_background_color="rgba(255, 255, 255, 0.1)" columns_animation="from-bottom"][vc_column_inner column_hover_options="hide-content" column_hover_url_button_style="color:btn-dark|size:btn-lg" column_hover_url="url:%23|title:Learn%20more||"][vc_icon type="fontawesomenew" icon_fontawesomenew="far fa-check-circle" icon_text_skin="txt--light" icon_style="bg" icon_bg_shadow="drop-shadow" icon_bg_padding_size="3x" icon_bg_color="#1a1a1a"][vc_custom_heading heading_text="Curabitur vel arcu elementum." heading_container="h2"][vc_column_text]Nam interdum urna velit, non auctor nunc.[/vc_column_text][vc_icon type="material" icon_material="vc-material vc-material-arrow_forward" icon_typography="font-size:24px" icon_text_skin="txt--light" icon_style="bg" icon_bg_shadow="drop-shadow" icon_bg_color="#1a1a1a"][/vc_column_inner][/vc_row_inner][vc_row_inner row_section_padding="padding-top:double|padding-bottom:double|padding-side:double" row_background_color="rgba(255, 255, 255, 0.1)" columns_animation="from-bottom"][vc_column_inner][vc_single_image image_style="rounded" image_shadow="drop-shadow" image_width="120" image_ratio="1:1" image_external="https://source.unsplash.com/PyGo1QBz5cI/120x120"][vc_custom_heading heading_text="Praesent rutrum lacus." heading_container="h2"][vc_column_text]Curabitur egestas leo eget est posuere.[/vc_column_text][/vc_column_inner][/vc_row_inner][/vc_column][/vc_row][/vc_section]',
-      'category' => 'heading, text, icon, image, dark-bg',
+      'category' => 'services, hero, icon, image, dark-bg',
       'image' => '0.1/hero_text-blocks-masonry_2col_960px_dark-bg.jpg',
     ),
     array(
@@ -374,14 +374,14 @@ function omnis_vc_studio_elements() {
       'content' => '[vc_row row_section_padding="padding-top:triple|padding-bottom:triple" row_container_height_custom="80vh" row_column_alignment_h="center" row_content_txt_skin="txt--light" row_background_color="#1a1a1a" row_background_image_overlay="rgba(0, 0, 0, 0.55)" row_background_image_effect="parallax parallax-v" row_background_image_external="https://source.unsplash.com/reCcJhzeM9U/2000x1600"][vc_column width="2/3" offset="vc_col-lg-offset-2 vc_col-sm-offset-2"][vc_custom_heading heading_text="Video." heading_container="h5"][vc_custom_heading heading_text="Aliquam erat volutpat." heading_container="h2" heading_typography="size-class:h1-alt"][vc_custom_heading heading_text="Aliquam erat volutpat. Maecenas viverra euismod justo a ultrices. Curabitur vel arcu elementum, sagittis leo ultricies, pharetra ante. Ut cursus scelerisque ipsum." heading_typography="size-class:leading-size"][vc_text_separator style="zigzag" separator_size="large" separator_width="small"][vc_icon type="fontawesomenew" icon_fontawesomenew="fab fa-vimeo-v" alignment="center" icon_typography="font-size:32" icon_text_skin="txt--light" icon_style="bg" icon_bg_shadow="drop-shadow" icon_bg_padding_size="3x" icon_link_transition="to-bottom" icon_link="url:https%3A%2F%2Fvimeo.com%2F290556837||target:%20_blank|" icon_bg_color="#1ab7ea"][vc_column_text css=".vc_custom_1537369978068{margin-top: 10px !important;}"]
       <p class="font-size-small">Click icon to watch video.</p>
       [/vc_column_text][/vc_column][/vc_row]',
-      'category' => 'heading, dark-bg',
+      'category' => 'hero, dark-bg',
       'image' => '0.1/hero-large-centered_w-bg_video.jpg',
     ),
     array(
       'id' => 'hero-large-left-bottom_w-bg',
       'name' => 'Heading - Large Left Bottom w/ BG',
       'content' => '[vc_row row_section_padding="padding-top:triple" row_container_height_custom="80vh" row_container_alignment_v="bottom" row_column_alignment_v="bottom" row_content_txt_skin="txt--light" row_background_color="#1a1a1a" row_background_image_overlay="rgba(0, 0, 0, 0.55)" row_background_image_effect="parallax parallax-v" row_background_image_external="https://source.unsplash.com/7ckybxQTYhI/2000x1600"][vc_column width="2/3"][vc_custom_heading heading_text="Features." heading_container="h5"][vc_custom_heading heading_text="In auctor pellentesque magna." heading_container="h2" heading_typography="size-class:h1-alt"][vc_custom_heading heading_text="In malesuada maximus mattis. Etiam interdum vulputate pulvinar. Mauris egestas libero non nisl accumsan sagittis. Etiam nulla quam, aliquet sit amet tempus ac." heading_typography="size-class:leading-size"][vc_text_separator style="zigzag" separator_size="large" separator_width="small"][/vc_column][/vc_row]',
-      'category' => 'hero, heading, dark-bg, titlebar',
+      'category' => 'hero, dark-bg, titlebar',
       'image' => '0.1/hero-large-left-bottom_w-bg.jpg',
     ),
     array(
@@ -706,7 +706,7 @@ function omnis_vc_studio_elements() {
       'content' => '[vc_row row_columns_gap="quad" row_content_txt_skin="txt--light" row_background_color="#1a1a1a"][vc_column width="1/2"][vc_empty_space empty_height="single" el_visibility="phone:hidden"][vc_custom_heading heading_text="Our Story." heading_container="h2"][vc_text_separator separator_size="large" separator_width="small"][vc_column_text]
       <p class="leading-size">Mauris malesuada facilisis rutrum. Fusce venenatis nibh nec lectus rutrum, eget interdum ipsum dapibus. Vivamus in sem feugiat, mattis purus in, consequat eros. Cras ornare pulvinar mi vitae interdum. Nam quam urna, pretium sit amet suscipit eu, pulvinar quis nisi.</p>
       [/vc_column_text][vc_empty_space][vc_button2 title="Learn more" button_color="btn-light" button_size="btn-lg" link="url:%23|||"][/vc_column][vc_column column_content_alignment_v="center" width="1/2"][vc_single_image image_border_radius="10" image_overlay_hover="hover-out" image_shadow="drop-shadow" image_width="1300" image_ratio="4:3" el_zindex="1" image_external="https://source.unsplash.com/0J5_6JCYXJ0/1300x900"][/vc_column][/vc_row]',
-      'category' => 'image, text, heading, dark-bg, button',
+      'category' => 'image, text, hero, dark-bg, button',
       'image' => '0.2/hero_text_w-radius-image-centered_dark.jpg',
     ),
     array(
@@ -722,7 +722,7 @@ function omnis_vc_studio_elements() {
       'content' => '[vc_row row_column_content_alignment_v="center" row_columns_gap="quad" row_content_txt_skin="txt--light" row_background_color="#1a1a1a"][vc_column width="2/3"][vc_video link="https://vimeo.com/306258963" css=".vc_custom_1549134564368{border-radius: 10px !important;}" el_class="overflow-hidden"][/vc_column][vc_column width="1/3"][vc_custom_heading heading_text="There is plenty of possibilities." heading_container="h2"][vc_column_text]
       <p class="leading-size">Phasellus at est non lacus ullamcorper bibendum. Praesent enim tellus, dignissim non metus et, sagittis efficitur diam.</p>
       [/vc_column_text][vc_empty_space][vc_button2 title="Learn more" button_color="btn-light" button_size="btn-lg" link="url:%23|||"][/vc_column][/vc_row]',
-      'category' => 'video, text, heading, dark-bg, button',
+      'category' => 'video, text, hero, dark-bg, button',
       'image' => '0.2/hero_text_video-radius.jpg',
     ),
     array(
@@ -736,7 +736,7 @@ function omnis_vc_studio_elements() {
       'id' => 'hero_titlebar_alt-subtitle_colorful',
       'name' => 'Heading - Titlebar - Alt Subtitle',
       'content' => '[vc_section][vc_row row_container_height_custom="50vh" row_container_alignment_v="bottom" row_column_content_alignment_v="bottom" row_background_color="rgb(86, 49, 226)"][vc_column width="2/3"][vc_custom_heading heading_text="`{`omnis_title`}`" heading_container="h1" heading_typography="size-class:h1-alt" heading_color="#ffffff" heading_text_shadow="drop-shadow-text"][vc_empty_space empty_height="none"][vc_custom_heading heading_text="`{`omnis_subtitle`}`" heading_container="h2" heading_typography="size-class:h1-alt|font-family:Playfair Display|google-font:true|font-weight:400" heading_color="#ffffff" heading_text_shadow="drop-shadow-text"][/vc_column][/vc_row][/vc_section]',
-      'category' => 'hero, heading, titlebar, colorful',
+      'category' => 'hero, titlebar, colorful',
       'image' => '0.2/hero_titlebar_alt-subtitle_colorful.jpg',
     ),
     array(
@@ -774,7 +774,7 @@ function omnis_vc_studio_elements() {
       <h2 class="h1-alt">Inside studio.
       <span style="font-family: \'Playfair Display\';">Donec a <em>faucibus</em> turpis.</span></h2>
       [/vc_column_text][/vc_column][/vc_row][vc_row row_section_padding="padding-bottom:none|padding-side:none" row_section_container_width="stretched"][vc_column][vc_gallery images_anchor_full="" images_layout="masonry" images_columns_span="desktop:6" images_columns_gap="double" images_rows_gap="double" image_width="1300"][/vc_column][/vc_row][/vc_section]',
-      'category' => 'gallery, hero, heading, full-width, dark-bg',
+      'category' => 'gallery, hero, full-width, dark-bg',
       'image' => '0.2/gallery_masonry-full-width_w-hero.jpg',
     ),
     array(
@@ -865,14 +865,14 @@ function omnis_vc_studio_elements() {
       'id' => 'hero_blur_alt-typo_fade-bg',
       'name' => 'Heading - Blur - Fade out BG - Alt Typo',
       'content' => '[vc_section section_background_color="#1a1a1a" section_content_animation="blur-out"][vc_row row_section_padding="padding-top:quad" row_background_color="transparent" row_background_image_settings="position:center top|size:contain|repeat:no-repeat" row_background_image_overlay="linear-gradient(0deg, transparent 0%, #1a1a1a 100%)" columns_animation="blur-out" row_force_as_bg="as-background"][vc_column width="2/3"][vc_custom_heading heading_text="We are omnis." heading_container="h2" heading_typography="size-class:h5-size"][vc_custom_heading heading_text="Pellentesque dignissim congue ex in feugiat cras hendrerit." heading_container="h2" heading_typography="size-class:h1-size|font-family:Playfair Display|google-font:true|font-weight:400"][/vc_column][/vc_row][/vc_section]',
-      'category' => 'hero, heading, dark-bg, titlebar',
+      'category' => 'hero, dark-bg, titlebar',
       'image' => '0.2/hero_blur_alt-typo_fade-bg.jpg',
     ),
     array(
       'id' => 'hero_bottom-left_w-inline-icon',
       'name' => 'Heading - Bottom Left - w/ Inline Icon',
       'content' => '[vc_row row_container_height_custom="50vh" row_column_alignment_v="bottom" row_content_txt_skin="txt--light" row_background_image_external="https://source.unsplash.com/jEqyV_rumuU/2000x1300" row_background_image_overlay="rgba(0, 0, 0, 0.2)"][vc_column][vc_row_inner row_column_content_alignment_v="center" columns_animation="scale-up" columns_animation_delay="200" row_flex_wrap="nowrap"][vc_column_inner width="auto"][vc_icon type="material" icon_material="vc-material vc-material-link" icon_typography="font-size:30" icon_style="bg" icon_text_color="#1a1a1a" icon_bg_color="#ffffff"][/vc_column_inner][vc_column_inner][vc_custom_heading heading_text="Check what we do" heading_container="h1" heading_typography="size-class:h2-size" link="url:#|||"][/vc_column_inner][/vc_row_inner][/vc_column][/vc_row]',
-      'category' => 'hero, heading, dark-bg, titlebar',
+      'category' => 'hero, dark-bg, titlebar',
       'image' => '0.2/hero_bottom-left_w-inline-icon.jpg',
     ),
     array(
@@ -914,7 +914,7 @@ function omnis_vc_studio_elements() {
       'id' => 'hero_splitted_v-bottom_full-window',
       'name' => 'Hero - Splitted V-Bottom - Full Window',
       'content' => '[vc_section section_content_txt_skin="txt--light" section_background_color="#252525" section_scroll_pin="enabled"][vc_row row_section_padding="padding-side:none|padding-bottom:none|padding-top:none" row_container_height_custom="100vh" row_column_content_alignment_v="bottom" row_columns_gap="none" row_rows_gap="none" row_section_container_width="stretched"][vc_column column_padding="padding-top:triple|padding-bottom:triple|padding-side:fluid-triple" offset="vc_col-lg-6"][vc_empty_space empty_height="triple"][vc_row_inner][vc_column_inner][vc_custom_heading heading_text="`{`omnis_title`}`" heading_container="h1"][vc_custom_heading heading_text="`{`omnis_subtitle`}`" heading_typography="size-class:leading-size"][vc_empty_space empty_height="triple"][vc_button2 title="Learn more" button_color="btn-light" button_type="btn-outlined" button_size="btn-lg" link="url:%23more|||"][/vc_column_inner][/vc_row_inner][/vc_column][vc_column column_padding="padding-top:none|padding-bottom:none|padding-side:none" templates__column_background_source="both-page-image" column_background_image_overlay="linear-gradient(0deg, transparent 0%, rgba(0, 0, 0, 0.1) 100%)" column_background_image_external="https://source.unsplash.com/hxkduwR6BuE/1300" offset="vc_col-lg-6"][vc_empty_space empty_height="none" el_visibility="desktop:hidden|tablet:hidden" css=".vc_custom_1549122624294{padding-bottom: 100% !important;}"][/vc_column][/vc_row][/vc_section]',
-      'category' => 'image, hero, heading, titlebar, full-width, dark-bg, button',
+      'category' => 'image, hero, titlebar, full-width, dark-bg, button',
       'image' => '0.2/hero_splitted_v-bottom_full-window.jpg',
     ),
     array(
@@ -1313,14 +1313,14 @@ function omnis_vc_studio_elements() {
       'id' => 'hero-boxed-sticky_images-2-columns_top-slanted-separator_alt-bg',
       'name' => 'Heading Boxed Sticky - 2 Columns Images - Top Slatted Separator',
       'content' => '[vc_section section_padding="padding-top:double" section_background_color="#fafafa" section_separator_top="slanted-right"][vc_row row_columns_gap="double"][vc_column column_sticky="enabled" width="1/3"][vc_row_inner row_section_padding="padding-top:double|padding-bottom:double|padding-side:double" row_background_color="rgb(255, 255, 255)" css=".vc_custom_1551804185834{border-radius: 5px !important;}"][vc_column_inner][vc_custom_heading heading_text="About" heading_typography="font-weight:500|letter-spacing:-0.04em" heading_color="rgba(0, 0, 0, 0.2)"][vc_empty_space][vc_custom_heading heading_text="Who." heading_container="h2" heading_typography="size-class:h1-alt"][vc_custom_heading heading_text="Aliquam luctus, dui at imperdiet rutrum, orci est scelerisque erat, a dapibus augue eros ac arcu." heading_typography="size-class:leading-size"][/vc_column_inner][/vc_row_inner][/vc_column][vc_column width="2/3"][vc_row_inner row_columns_gap="double"][vc_column_inner width="1/2"][vc_single_image image_width="1300" image_ratio="1:1" image_external="https://source.unsplash.com/KPBG8BaKJQ4/1300x1300"][vc_empty_space][vc_custom_heading heading_text="Phasellus non enim vel elit tincidunt interdum. Phasellus et porttitor est, sit amet luctus metus." heading_typography="size-class:leading-size"][vc_empty_space][vc_button2 title="Read more" button_color="btn-light" button_size="btn-lg" link="url:%23|||"][/vc_column_inner][vc_column_inner width="1/2"][vc_text_separator style="stripes" separator_size="large" separator_width="small"][vc_custom_heading heading_text="We are design agency." heading_typography="font-weight:500|letter-spacing:-0.04em"][vc_empty_space empty_height="half"][vc_custom_heading heading_text="Maecenas at ipsum ullamcorper, lobortis tellus." heading_container="h2"][vc_empty_space][vc_single_image image_width="1300" image_ratio="1:1" image_external="https://source.unsplash.com/Jenh_W-2kpQ/1300x1300"][/vc_column_inner][/vc_row_inner][/vc_column][/vc_row][/vc_section]',
-      'category' => 'hero, heading, text, image, button',
+      'category' => 'hero, text, image, button',
       'image' => '0.3/hero-boxed-sticky_images-2-columns_top-slanted-separator_alt-bg.jpg',
     ),
     array(
       'id' => 'hero_h1-size_dark-bg_top-separator-slanted',
-      'name' => 'Heading Boxed Sticky - 2 Columns Images - Top Slatted Separator',
+      'name' => 'Heading - H1 Size - Top Slatted Separator - Dark BG',
       'content' => '[vc_section section_padding="padding-top:double" section_content_txt_skin="txt--light" section_background_color="#1a1a1a" section_separator_top="slanted-left" section_separator_top_color="#fafafa"][vc_row][vc_column width="2/3"][vc_custom_heading heading_text="Projects." heading_typography="font-weight:500|letter-spacing:-0.04em"][vc_empty_space][vc_custom_heading heading_text="In eget felis pulvinar." heading_container="h2" heading_typography="size-class:h1-alt"][vc_text_separator separator_width="small"][vc_custom_heading heading_text="Praesent efficitur odio et purus pulvinar congue. Vivamus ac enim neque. Donec sollicitudin massa eget risus aliquet, at interdum mauris dapibus." heading_container="p" heading_typography="size-class:h3-size"][vc_empty_space][/vc_column][vc_column width="1/3"][/vc_column][/vc_row][/vc_section]',
-      'category' => 'heading, text',
+      'category' => 'hero, text, dark-bg',
       'image' => '0.3/hero_h1-size_dark-bg_top-separator-slanted.jpg',
     ),
     array(
@@ -1475,7 +1475,7 @@ function omnis_vc_studio_elements() {
     ),
     array(
       'id' => 'loop_masonry-2cols_over-img_filtering',
-      'name' => 'Loop - Masonry 2 Columns - Filtering in Box',
+      'name' => 'Loop - Masonry 2 Columns - Filtering in Box - Infinite Pagination',
       'content' => '[vc_row][vc_column][loprd_loop loop="order_by:date" grid_layout="masonry" _grid_columns="desktop:6" grid_columns_gap="triple" grid_rows_gap="triple" pagination="infinite" pagination_infinite_text="I want more" post_layout="img" post_layout_ratio="" post_content_layout="title,meta2" post_meta="`{`omnis_cats`}`" post_meta2="`{`omnis_permalink title=``Open project →```}`" post_alignment_v="bottom" post_hover_thumb="" post_hover_img_content="hover-content--bottom hover--in hover--el-overflow" post_title_typo="size-class:h3-size" post_meta_typo="size-class:h3-size" filters="enabled" filters_layout="box" filters_text_box_before="Projects displayed by" filters_padding="padding-bottom:triple" filters_typo="size-class:h3-size" filters_box_typo="size-class:h4-size" animation="scale-up" animation_delay="200" pagination_padding="padding-top:triple"][/vc_column][/vc_row]',
       'category' => 'loop',
       'image' => '0.3/loop_masonry-2cols_over-img_filtering.jpg',
@@ -1493,7 +1493,7 @@ function omnis_vc_studio_elements() {
       'content' => '[vc_section section_content_txt_skin="txt--light" section_background_color="#634bfb"][vc_row row_columns_gap="double" columns_animation="scale-up" columns_animation_duration="1500"][vc_column width="3/4"][vc_custom_heading heading_text="omnis.app" heading_container="h2" heading_typography="size-class:h4-size"][vc_column_text]
       <h1><span class="font-weight-700">Eye-Catching <span style="color: transparent; -webkit-text-stroke: 1px #fff;">landing</span> page.</span></h1>
       [/vc_column_text][vc_custom_heading heading_text="Donec posuere interdum ex, gravida lobortis risus placerat et. Suspendisse id luctus sem. In congue cursus erat, id volutpat enim feugiat eget." heading_typography="size-class:leading-size"][vc_empty_space][vc_row_inner][vc_column_inner][vc_button2 title="Download" button_color="btn-light" button_size="btn-lg" alignment="inline" link="url:%23|||"][vc_button2 title="Learn more" button_color="btn-light" button_type="btn-simple" button_size="btn-lg" alignment="inline" link="url:%23|||"][/vc_column_inner][/vc_row_inner][/vc_column][/vc_row][/vc_section]',
-      'category' => 'hero, heading, button, call-to-action, colorful',
+      'category' => 'hero, button, call-to-action, colorful',
       'image' => '0.3/hero_h1-size-w-stroke_extended_2-buttons-cta_colorful.jpg',
     ),
     array(
@@ -1674,7 +1674,7 @@ function omnis_vc_studio_elements() {
     ),    
     array(
       'id' => 'loop_lateral-bordered_3-elements',
-      'name' => 'Loop - Laterl Bordered - 3 Items - Slim (880px)',
+      'name' => 'Loop - Lateral Bordered - 3 Items - Slim (880px)',
       'content' => '[vc_row row_container_width_custom="880"][vc_column][vc_text_separator][vc_empty_space][vc_custom_heading heading_text="News" heading_container="h2"][vc_row_inner row_section_padding="padding-top:one|padding-bottom:one|padding-side:one" row_background_color="rgba(0, 0, 0, 0.05)"][vc_column_inner][loprd_loop loop="size:3|order_by:date" _grid_columns="desktop:12|tablet:12" grid_rows_gap="one" post_layout="lateral" post_layout_ratio="2:1" post_layout_lateral_thumb="right" post_layout_lateral_ratio="1-3" post_content_layout="meta,title,separator,more" post_meta="`{`omnis_date`}`" post_alignment_v="top" post_content_bg_color="#ffffff" post_content_skin_custom_meta="rgba(0,0,0,0.6)" post_drop_shadow="" post_content_el_padding="more:single|separator:half" post_title_typo="font-weight:200|size-class:h3-size"][/vc_column_inner][/vc_row_inner][vc_button2 title="Go to Blog" button_type="btn-outlined" button_width="btn-block" link="url:https%3A%2F%2Fdemo.loprd.pl%2Fomnis%2Fblog-one-column%2F|title:Blog%20%E2%80%93%20One%20Column||"][/vc_column][/vc_row]',
       'category' => 'loop, loop-related',
       'image' => '0.3/loop_lateral-bordered_3-elements.jpg',
@@ -1762,7 +1762,7 @@ function omnis_vc_studio_elements() {
     ),
     array(
       'id' => 'loop_grid-3-columns_full-width_over-blur-image_content-block',
-      'name' => 'Loop - Grid 3 Columns - Blocked Content over Blurred Imaged - Full Width',
+      'name' => 'Loop - Grid 3 Columns - Boxed Content over Blurred Imaged - Full Width',
       'content' => '[vc_section section_background_color="#f8f8f8"][vc_row row_section_padding="padding-side:none" row_section_container_width="stretched"][vc_column][loprd_loop loop="order_by:date" grid_columns_gap="triple" grid_rows_gap="triple" grid_alignment_v="center" pagination="infinite" post_layout="img" post_layout_ratio="" post_meta="`{`omnis_cats`}`" post_alignment_h="center" post_hover_thumb="hover-thumb--blur-in" post_hover_img_content="hover--in" post_styling_setting="content" post_content_bg_color="#ffffff" post_image_overlay_color="transparent" post_content_skin_color="txt--dark" post_content_max_width="auto" post_title_typo="size-class:h2-size" post_meta_typo="size-class:body-size" animation="fade-in" animation_delay="200" grid_images_lazy_dominant="disable"][/vc_column][/vc_row][/vc_section]',
       'category' => 'loop, full-width',
       'image' => '0.3/loop_grid-3-columns_full-width_over-blur-image_content-block.jpg',
@@ -1916,16 +1916,16 @@ function omnis_vc_studio_elements() {
     ),
     array(
       'id' => 'heading_h2-size-w-button',
-      'name' => 'Text Splitted w/ Image - Contact w/ Social icons - Dark BG - Full-width',
+      'name' => 'Heading - H2 Size - w/ Button',
       'content' => '[vc_row row_columns_gap="triple"][vc_column width="1/2"][vc_custom_heading heading_text="Vivamus blandit nisi a iaculis imperdiet. Maecenas blandit ante eu orci pulvinar blandit. Sed in tincidunt nulla, quis pretium nunc." heading_container="h1" heading_typography="size-class:h2-size"][vc_empty_space][vc_button2 title="Learn more" button_type="btn-outlined" button_size="btn-lg" link="url:%23|||"][/vc_column][vc_column width="5/12"][/vc_column][/vc_row]',
-      'category' => 'heading, button',
+      'category' => 'heading, button, call-to-action',
       'image' => '0.3/heading_h2-size-w-button.jpg',
     ),
     array(
       'id' => 'heading_h2-size-w-button_dark-bg',
-      'name' => 'Text Splitted w/ Image - Contact w/ Social icons - Dark BG - Full-width',
+      'name' => 'Heading - H2 Size - w/ Button Dark',
       'content' => '[vc_section section_content_txt_skin="txt--light" section_background_color="#1a1a1a"][vc_row row_columns_gap="triple"][vc_column width="1/2"][vc_custom_heading heading_text="Proin ac rutrum mi. Suspendisse blandit tempus tellus ac sodales. Ut dictum hendrerit arcu at rhoncus. Nullam lobortis ex nec euismod varius." heading_container="h1" heading_typography="size-class:h2-size"][vc_empty_space][vc_button2 title="Learn more" button_color="btn-light" button_type="btn-outlined" button_size="btn-lg" link="url:%23|||"][/vc_column][vc_column width="5/12"][/vc_column][/vc_row][/vc_section]',
-      'category' => 'heading, button, dark-bg',
+      'category' => 'hero, button, dark-bg, call-to-action',
       'image' => '0.3/heading_h2-size-w-button_dark-bg.jpg',
     ),
     array(
@@ -1971,7 +1971,7 @@ function omnis_vc_studio_elements() {
       'id' => 'hero_boxed-heading-cta_bordered-inside_dark-bg',
       'name' => 'Hero - Boxed Heading CTA - Bordered Inside - Full Width / 90vh Height',
       'content' => '[vc_section section_background_color="rgb(244, 248, 251)" section_background_image_overlay="linear-gradient(0deg, transparent 0%, rgba(0, 0, 0, 0.2) 100%)" section_background_image_effect="parallax parallax-v" section_background_image_parallax_level="2" section_background_image_external="https://source.unsplash.com/_2WvBnBHoqc/2000x1300"][vc_row row_section_container_width="stretched" row_container_height_custom="90vh" row_column_content_alignment_v="center" row_columns_gap="none" row_rows_gap="none" row_background_image_effect="parallax parallax-v" row_background_image_parallax_level="2"][vc_column column_padding="padding-top:triple|padding-bottom:triple|padding-side:triple" column_background_color="#ffffff" offset="vc_col-lg-7"][vc_custom_heading heading_text="Cras fringilla maximus ex eu auctor." heading_container="h2" heading_typography="size-class:h1-alt"][vc_custom_heading heading_text="Pellentesque sit amet ante dictum, sollicitudin ligula non, consectetur mauris. Morbi id lectus velit. Fusce sit amet aliquet urna." heading_typography="size-class:leading-size"][vc_empty_space][vc_button2 title="Read our story" button_size="btn-lg" link="url:%23|||"][/vc_column][vc_column width="5/12" css=".vc_custom_1554982806492{border-top-width: 1px !important;border-right-width: 1px !important;border-bottom-width: 1px !important;border-right-style: solid !important;border-top-style: solid !important;border-bottom-style: solid !important;}" offset="vc_hidden-sm vc_hidden-xs"][/vc_column][/vc_row][/vc_section]',
-      'category' => 'hero, heading, dark-bg, full-width',
+      'category' => 'hero, dark-bg, full-width',
       'image' => '0.3/hero_boxed-heading-cta_bordered-inside_dark-bg.jpg',
     ),
     array(
@@ -1985,14 +1985,14 @@ function omnis_vc_studio_elements() {
       'id' => 'hero_product-boxed_bordered_light-bg_full-width',
       'name' => 'Hero - Boxed Product - Bordered Inside - Full Width / 90vh Height',
       'content' => '[vc_section][vc_row row_section_container_width="stretched" row_container_height_custom="90vh" row_column_content_alignment_v="center" row_columns_gap="none" row_rows_gap="none" row_background_color="#fafafa" row_background_image_effect="parallax parallax-v" row_background_image_parallax_level="2" row_background_image_external="https://source.unsplash.com/LxVxPA1LOVM/2000x1300"][vc_column width="5/12" css=".vc_custom_1554982901587{border-top-width: 1px !important;border-bottom-width: 1px !important;border-left-width: 1px !important;border-left-style: solid !important;border-top-style: solid !important;border-bottom-style: solid !important;}" offset="vc_col-lg-7 vc_hidden-xs"][/vc_column][vc_column column_padding="padding-top:triple|padding-bottom:triple|padding-side:triple" column_background_color="#ffffff" width="7/12" offset="vc_col-lg-5"][vc_custom_heading heading_text="Sneakers." heading_container="h2" heading_typography="size-class:h1-alt"][vc_empty_space empty_height="quarter"][loprd_add_to_cart price_typography="size-class:h4-size" id="6116"][vc_custom_heading heading_text="Donec eu dictum orci. Mauris ac lorem est." heading_typography="size-class:leading-size"][vc_empty_space][vc_button2 title="View details" button_size="btn-lg" link="url:#||"][/vc_column][/vc_row][/vc_section]',
-      'category' => 'hero, heading, full-width',
+      'category' => 'hero, full-width',
       'image' => '0.3/hero_product-boxed_bordered_light-bg_full-width.jpg',
     ),
     array(
       'id' => 'hero_product-boxed_bordered_dark-bg_full-width',
       'name' => 'Hero - Boxed Product - Bordered Inside - Dark BG - Full Width / 90vh Height',
       'content' => '[vc_section][vc_row row_section_container_width="stretched" row_container_height_custom="90vh" row_column_content_alignment_v="center" row_columns_gap="none" row_rows_gap="none" row_background_color="#1a1a1a" row_background_image_effect="parallax parallax-v" row_background_image_parallax_level="2" row_background_image_external="https://source.unsplash.com/5UQoVk8_d-4/2000x1300"][vc_column column_padding="padding-top:triple|padding-bottom:triple|padding-side:triple" column_background_color="#ffffff" width="7/12" offset="vc_col-lg-5"][vc_custom_heading heading_text="Bike." heading_container="h2" heading_typography="size-class:h1-alt"][vc_empty_space empty_height="quarter"][loprd_add_to_cart price_typography="size-class:h4-size" id="6129"][vc_custom_heading heading_text="Pellentesque auctor pulvinar dui sed egestas." heading_typography="size-class:leading-size"][vc_empty_space][vc_button2 title="View details" button_size="btn-lg" link="url:#||"][/vc_column][vc_column width="5/12" css=".vc_custom_1554984840106{border-top-width: 1px !important;border-bottom-width: 1px !important;padding-right: 1px !important;border-top-style: solid !important;border-bottom-style: solid !important;}" offset="vc_col-lg-7 vc_hidden-xs"][/vc_column][/vc_row][/vc_section]',
-      'category' => 'hero, heading, full-width, dark-bg',
+      'category' => 'hero, full-width, dark-bg',
       'image' => '0.3/hero_product-boxed_bordered_dark-bg_full-width.jpg',
     ),
     array(
@@ -2041,14 +2041,14 @@ function omnis_vc_studio_elements() {
       'id' => 'loop_slider-9-columns_for-light-thumbs_w-side-heading-gradient',
       'name' => 'Hero w/ Loop - Slider for Light Thumbs (90vh Height) - w/ Side Heading Gradient',
       'content' => '[vc_section section_content_txt_skin="txt--dark" section_background_color="#f8f8f8"][vc_row row_section_padding="padding-side:none|padding-bottom:one|padding-top:one" row_section_container_width="stretched" row_container_height_custom="90vh" row_column_content_alignment_v="bottom" row_columns_gap="none" row_rows_gap="none"][vc_column column_padding="padding-top:double|padding-bottom:double|padding-side:fluid-double" column_background_color="linear-gradient(90deg, #f8f8f8 50%, transparent 100%)" el_zindex="5" width="1/4"][vc_row_inner el_zindex="1" el_visibility="phone:hidden"][vc_column_inner][vc_custom_heading heading_text="`{`omnis_current_year`}`" heading_container="h1" heading_type_bg_oneline="true" heading_type_bg_direction="vertical" heading_typography="font-family:Playfair Display|google-font:true|font-weight:700|size-class:jumbo-size|line-height:100%" heading_color="rgb(255, 255, 255)"][/vc_column_inner][/vc_row_inner][vc_empty_space empty_height="fluid-double"][vc_row_inner el_zindex="2"][vc_column_inner][vc_custom_heading heading_text="Antique" heading_container="h1" heading_type_bg_oneline="true" heading_typography="size-class:h1-alt|font-weight:700"][vc_empty_space empty_height="quarter"][vc_custom_heading heading_text="collection" heading_container="h1" heading_typography="size-class:h3-size"][vc_empty_space][vc_button2 title="More products" button_color="btn-light" button_size="btn-lg" link="url:%23|||"][/vc_column_inner][/vc_row_inner][/vc_column][vc_column width="3/4"][loprd_loop loop="size:9" grid_layout="slider" grid_layout_slider_style="full" carousel_loop="enabled" grid_layout_slider_pagination="" grid_layout_slider_autoplay="10000" _grid_columns="desktop:5|tablet:6" grid_columns_gap="double" post_layout="img" post_layout_ratio="1:1" post_content_layout="title,price" post_alignment_h="center" post_alignment_v="bottom" post_hover_thumb="" post_hover_img_content="hover-content--left hover--in" post_thumb_container_height="90vh" post_content_bg_color="transparent" post_image_overlay_color="linear-gradient(0deg, #f8f8f8 0%, transparent 100%)" post_content_skin_color="txt--dark" post_drop_shadow="" post_content_padding="padding-side:fluid-double|padding-top:double|padding-bottom:double" post_content_max_width="70" post_title_typo="size-class:h2-size" post_price_typo="font-size:18" animation="from-right" animation_delay="200" grid_images_lazy_dominant="disable"][/vc_column][/vc_row][/vc_section]',
-      'category' => 'loop, slider, heading, hero, full-width',
+      'category' => 'loop, slider, hero, hero, full-width',
       'image' => '0.3/loop_slider-9-columns_for-light-thumbs_w-side-heading-gradient.jpg',
     ),
     array(
       'id' => 'loop_slider-9-columns_for-dark-thumbs_w-side-heading-gradient_dark-bg',
       'name' => 'Hero w/ Loop - Slider for Dark Thumbs (90vh Height) - w/ Side Heading Gradient - Dark BG',
       'content' => '[vc_section section_content_txt_skin="txt--light" section_background_color="#252525"][vc_row row_section_padding="padding-side:none|padding-bottom:one|padding-top:one" row_section_container_width="stretched" row_container_height_custom="90vh" row_column_content_alignment_v="bottom" row_columns_gap="none" row_rows_gap="none"][vc_column column_padding="padding-top:double|padding-bottom:double|padding-side:fluid-double" column_background_color="linear-gradient(90deg, #252525 50%, transparent 100%)" el_zindex="5" width="1/4"][vc_row_inner el_zindex="1" el_visibility="phone:hidden"][vc_column_inner][vc_custom_heading heading_text="`{`omnis_current_year`}`" heading_container="h1" heading_type_bg_oneline="true" heading_type_bg_direction="vertical" heading_typography="font-family:Playfair Display|google-font:true|font-weight:700|size-class:jumbo-size|line-height:100%" heading_color="#1a1a1a"][/vc_column_inner][/vc_row_inner][vc_empty_space empty_height="fluid-double"][vc_row_inner el_zindex="2"][vc_column_inner][vc_custom_heading heading_text="PNK" heading_container="h1" heading_type_bg_oneline="true" heading_typography="size-class:h1-alt|font-weight:700"][vc_empty_space empty_height="quarter"][vc_custom_heading heading_text="collection" heading_container="h1" heading_typography="size-class:h3-size"][vc_empty_space][vc_button2 title="More products" button_color="btn-dark" button_size="btn-lg" link="url:%23|||"][/vc_column_inner][/vc_row_inner][/vc_column][vc_column width="3/4"][loprd_loop loop="size:9|order_by:date" _loop_advanced_options="true" loop_exclude_displayed="1" grid_layout="slider" grid_layout_slider_style="full" carousel_loop="enabled" grid_layout_slider_pagination="" grid_layout_slider_autoplay="10000" _grid_columns="desktop:5|tablet:6" grid_columns_gap="double" post_layout="img" post_layout_ratio="1:1" post_content_layout="title,price" post_alignment_h="center" post_alignment_v="bottom" post_hover_thumb="" post_hover_img_content="hover-content--left hover--in" post_thumb_container_height="90vh" post_content_bg_color="transparent" post_image_overlay_color="linear-gradient(0deg, #252525 0%, transparent 100%)" post_content_skin_color="txt--light" post_drop_shadow="" post_content_padding="padding-top:double|padding-bottom:double|padding-side:fluid-double" post_content_max_width="70" post_title_typo="size-class:h2-size" post_price_typo="font-size:18" animation="from-right" animation_delay="200" grid_images_lazy_dominant="disable"][/vc_column][/vc_row][/vc_section]',
-      'category' => 'loop, slider, heading, hero, full-width, dark-bg',
+      'category' => 'loop, slider, hero, hero, full-width, dark-bg',
       'image' => '0.3/loop_slider-9-columns_for-dark-thumbs_w-side-heading-gradient_dark-bg.jpg',
     ),
     array(
@@ -2062,7 +2062,7 @@ function omnis_vc_studio_elements() {
       'id' => 'heading-pulled_w-loop-single-item_cta_dark-bg',
       'name' => 'Heading - Pulled Stroke - w/ Single Loop Item - Dark BG',
       'content' => '[vc_section section_content_txt_skin="txt--light" section_background_color="#1a1a1a"][vc_row row_columns_gap="double"][vc_column column_alignment_h="right" el_zindex="2" width="1/2"][vc_empty_space empty_height="triple" el_visibility="phone:hidden"][vc_row_inner][vc_column_inner column_advanced_h_offset="desktop:push-quad|tablet:push-quad"][vc_custom_heading heading_text="Going dark" heading_container="h2" heading_typography="size-class:h1-alt|font-weight:700" heading_color="transparent" heading_color_stroke="#ffffff"][/vc_column_inner][/vc_row_inner][vc_custom_heading heading_text="Nam fringilla orci vitae odio laoreet venenatis. Praesent ornare fringilla varius. Maecenas ac leo ac velit dictum eleifend. In consectetur luctus augue ac euismod." heading_typography="size-class:leading-size"][vc_empty_space][vc_button2 title="Read more" button_color="btn-light" button_size="btn-lg" link="url:%23|||"][/vc_column][vc_column width="1/2"][loprd_loop loop="size:1|order_by:date" _grid_columns="desktop:12|tablet:12" grid_columns_gap="single" post_layout="img" post_layout_ratio="3:4" post_content_layout="title,price" post_alignment_h="center" post_alignment_v="bottom" post_hover_thumb="" post_hover_img_content="hover-content--left hover--in" post_content_bg_color="transparent" post_image_overlay_color="linear-gradient(0deg, #252525 0%, transparent 100%)" post_content_skin_color="txt--light" post_drop_shadow="" post_content_padding="padding-top:double|padding-bottom:double|padding-side:fluid-double" post_content_max_width="70" post_title_typo="size-class:h2-size" post_price_typo="font-size:18" animation="from-right" animation_delay="200"][/vc_column][/vc_row][/vc_section]',
-      'category' => 'loop, heading, call-to-action, dark-bg',
+      'category' => 'loop, hero, call-to-action, dark-bg',
       'image' => '0.3/heading-pulled_w-loop-single-item_cta_dark-bg.jpg',
     ),
     array(
@@ -2191,7 +2191,7 @@ function omnis_vc_studio_elements() {
       'id' => 'hero_heading-w-stroke-and-button_text-fade-out',
       'name' => 'Hero - Heading w/ Stroke & Button - Fade out Text',
       'content' => '[vc_row][vc_column width="1/4"][vc_custom_heading heading_text="about" heading_container="h2" heading_typography="size-class:h1-alt" heading_color="transparent" heading_color_stroke="#1a1a1a"][vc_empty_space][vc_button2 title="Read more" button_color="btn-light" button_size="btn-lg" link="url:%23|||"][/vc_column][vc_column width="3/4"][vc_row_inner row_columns_gap="half" row_rows_gap="half"][vc_column_inner width="1/2"][vc_custom_heading heading_text="Suspendisse vestibulum, dui eu consectetur condimentum, sapien nulla maximus urna, et maximus dolor orci eu mauris. Pellentesque dictum pretium risus, vel imperdiet odio porttitor in. Proin porta libero ac iaculis egestas. Etiam convallis consectetur ultricies. Suspendisse eget dictum erat." heading_container="p" heading_h_alignment="justify" heading_typography="size-class:h3-size" heading_color="linear-gradient(90deg, #1a1a1a 66%, transparent 100%)"][/vc_column_inner][vc_column_inner width="1/2"][vc_custom_heading heading_text="Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Quisque mattis facilisis ante. Nullam porttitor, nulla vel vestibulum egestas, arcu mauris varius metus, ac malesuada quam massa id arcu. Ut dignissim turpis at ipsum aliquet rhoncus." heading_container="p" heading_h_alignment="justify" heading_typography="size-class:h3-size" heading_color="linear-gradient(90deg, #1a1a1a 66%, transparent 100%)"][/vc_column_inner][/vc_row_inner][/vc_column][/vc_row]',
-      'category' => 'hero, heading, text',
+      'category' => 'heading, text',
       'image' => '0.3/hero_heading-w-stroke-and-button_text-fade-out.jpg',
     ),
     array(
@@ -2286,6 +2286,161 @@ function omnis_vc_studio_elements() {
       'content' => '[vc_row][vc_column][loprd_loop loop="size:6|order_by:date" _grid_columns="desktop:6" grid_rows_gap="double" grid_alignment_v="baseline" pagination="paginate" post_layout_ratio="2:1" post_content_layout="title,meta,content|excerpt,separator,meta2" post_meta2="`{`omnis_author`}``{`omnis_comments`}`" post_alignment_v="top" post_thumb_border_radius="5" post_drop_shadow="" post_read_more_button_style="size:btn-sm|color:btn-light|type:btn-link" post_content_padding="padding-side:half" post_content_el_padding="content:single" filters="enabled" filters_alignment="left" animation="from-right" animation_delay="200" pagination_top_gap="triple" pagination_padding="padding-top:triple"][/vc_column][/vc_row]',
       'category' => 'loop',
       'image' => '0.3/loop_2-columns-grid_wide-thumb-rounded_filter-and-pagin.jpg',
+    ),
+    array(
+      'id' => 'loop_3-columns-grid_equal-thumbs-no-gap_pagination-infinite',
+      'name' => 'Loop - 3 Columns Grid - Equal Thumbs w/ no Gap - Infinite Pagination',
+      'content' => '[vc_row][vc_column][loprd_loop loop="size:9|order_by:date" grid_columns_gap="none" grid_rows_gap="double" grid_alignment_v="baseline" pagination="infinite" post_layout_ratio="2:1" post_alignment_v="top" post_drop_shadow="" post_content_max_width="70" animation="from-bottom"][/vc_column][/vc_row]',
+      'category' => 'loop',
+      'image' => '0.3/loop_3-columns-grid_equal-thumbs-no-gap_pagination-infinite.jpg',
+    ),
+    array(
+      'id' => 'loop_5-columns-grid_baseline_full-width_filter-and-pagin',
+      'name' => 'Loop - 5 Columns Grid - Baseline - Full Width - Pagination & Filtering',
+      'content' => '[vc_row row_section_container_width="stretched"][vc_column][loprd_loop loop="size:10|order_by:date" _grid_columns="desktop:1/5|tablet:4" grid_columns_gap="quarter" grid_rows_gap="double" grid_alignment_v="baseline" pagination="paginate" post_layout_ratio="" post_content_layout="title" post_hover_thumb="hover-thumb--opacity" post_content_skin_custom_meta="#c5c5c5" post_drop_shadow="" post_content_padding="padding-top:half" post_content_max_width="70" post_title_typo="size-class:h5-size" filters="enabled" filters_padding="padding-bottom:triple" filters_typo="font-family:Playfair Display|google-font:true|font-weight:400|size-class:h5-size" pagination_top_gap="triple"][/vc_column][/vc_row]',
+      'category' => 'loop, full-width',
+      'image' => '0.3/loop_5-columns-grid_baseline_full-width_filter-and-pagin.jpg',
+    ),
+    array(
+      'id' => 'hero_h3-title-h1-alt-subtitle_centered_70vh',
+      'name' => 'Hero - h3-size Title w/ H1-alt Subtitle - Centered - 70vh Height - Push Down',
+      'content' => '[vc_section section_content_animation="push-dn"][vc_row row_container_height_custom="70vh" row_column_alignment_v="center" row_column_alignment_h="center" row_content_txt_skin="txt--light" templates__row_background_source="both-page-image" row_background_image_external="https://source.unsplash.com/9l_326FISzk/2000x1300" row_background_image_overlay="rgba(0, 0, 0, 0.2)" row_background_image_effect="parallax parallax-v" columns_animation="scale-up" columns_animation_duration="1000" columns_animation_delay="500"][vc_column width="2/3" offset="vc_col-sm-offset-2"][vc_custom_heading heading_text="News." heading_container="h1" heading_typography="size-class:h3-size"][vc_custom_heading heading_text="News.
+      In suscipit sit amet risus sed lobortis." heading_container="h2" heading_typography="font-weight:700|size-class:h1-alt"][/vc_column][/vc_row][/vc_section]',
+      'category' => 'hero, titlebar',
+      'image' => '0.3/hero_h3-title-h1-alt-subtitle_centered_70vh.jpg',
+    ),
+    array(
+      'id' => 'loop_2-columns_v-centered_boxed-content-v-centered_filter-infinite-pagination',
+      'name' => 'Loop - 2 Columns V-Center - Boxed Content V-Centered - Filter & Infinite Pagination',
+      'content' => '[vc_row][vc_column][loprd_loop loop="size:8|order_by:date" _grid_columns="desktop:6|tablet:12" grid_columns_gap="triple" grid_rows_gap="triple" grid_alignment_v="center" pagination="infinite" post_layout="img" post_layout_ratio="" post_content_layout="meta,title" post_hover_thumb="hover-thumb--scale-up" post_hover_img_content="hover-content--left hover--in hover--el-overflow" post_styling_setting="content" post_content_bg_color="#ffffff" post_image_overlay_color="transparent" post_content_skin_color="txt--dark" post_content_padding="padding-top:double|padding-bottom:double|padding-side:double" post_content_el_padding="title:single" post_content_push="top:single|bottom:single|side:single" filters="enabled" filters_padding="padding-bottom:triple" animation="scale-down" animation_delay="200"][/vc_column][/vc_row]',
+      'category' => 'loop',
+      'image' => '0.3/loop_2-columns_v-centered_boxed-content-v-centered_filter-infinite-pagination.jpg',
+    ),
+    array(
+      'id' => 'loop_3-columns-grid-v-centered_content-h-centered_boxed-filter-infi-pagin',
+      'name' => 'Loop - 3 Columns V-Center - Content H-Centered - Boxed Filter & Infinite Pagination',
+      'content' => '[vc_row][vc_column][loprd_loop loop="size:9|order_by:Date" grid_columns_gap="double" grid_rows_gap="double" grid_alignment_v="center" pagination="infinite" post_layout_ratio="" post_alignment_h="center" post_drop_shadow="" post_content_max_width="80" post_title_typo="size-class:h4-size" filters="enabled" filters_layout="box" filters_count="" filters_text_all="`{`All`}`" filters_text_box_before="Articles displayed by" filters_text_box_after="category." filters_padding="padding-bottom:triple" filters_typo="size-class:leading-size" filters_box_typo="font-size:17|line-height:1.6em" animation="from-left" animation_delay="200" pagination_top_gap="triple"][/vc_column][/vc_row]',
+      'category' => 'loop',
+      'image' => '0.3/loop_3-columns-grid-v-centered_content-h-centered_boxed-filter-infi-pagin.jpg',
+    ),
+    array(
+      'id' => 'loop_grid_first-extended-2-columns_reveal-thumb_full-width_dark-bg',
+      'name' => 'Loop - Grid - First Wide / 2 Columns w/ One Gap - Reveal - Full Width / Dark BG - Filtering & Infinite Pagination',
+      'content' => '[vc_row row_section_padding="padding-side:one|padding-top:one|padding-bottom:one" row_background_color="#1a1a1a" row_section_container_width="stretched"][vc_column][loprd_loop loop="size:9|order_by:Date" _grid_columns="desktop:6|tablet:12" grid_columns_gap="one" grid_rows_gap="one" pagination="infinite" post_layout="img" post_layout_ratio="19:10" post_hover_thumb="hover-thumb--scale-down" post_hover_img_content="hover-content--bottom hover--out hover--el-overflow" post_content_bg_color="#ffffff" post_image_overlay_color="#ffffff" post_content_skin_color="txt--dark" post_drop_shadow="" post_content_padding="padding-side:double|padding-top:double|padding-bottom:double" post_content_el_padding="meta:single" post_content_max_width="70" post_title_typo="size-class:h2-size" filters="enabled" filters_text_skin="txt--light" filters_padding="padding-top:single" grid_selector_pattern="1" grid_selector_custom_expand="1" _selector_grid_columns="desktop:12|tablet:12" grid_selector_post_layout_ratio="3:1" grid_selector_title_typo="size-class:h1-alt" animation="from-bottom" animation_delay="100" grid_images_max_width="1300" pagination_top_gap="double"][/vc_column][/vc_row]',
+      'category' => 'loop, dark-bg, full-width',
+      'image' => '0.3/loop_grid_first-extended-2-columns_reveal-thumb_full-width_dark-bg.jpg',
+    ),
+    array(
+      'id' => 'loop_grid-first-ext-2-columns_slim_inf-pagination',
+      'name' => 'Loop - First Extended / 2 Columns Grid - Slim (880px) - Infinite Pagination',
+      'content' => '[vc_row row_container_width_custom="880"][vc_column][loprd_loop loop="size:7|order_by:date" _grid_columns="desktop:6|tablet:6" grid_rows_gap="double" pagination="infinite" post_layout_ratio="2:1" post_content_layout="meta,title,content|excerpt,more,separator" post_meta="`{`omnis_date`}``{`omnis_author avatar=``false```}`" post_meta2="`{`omnis_author avatar=``false```}`" post_alignment_v="stretch" post_content_skin_custom_meta="rgba(0,0,0,0.5)" post_drop_shadow="" post_read_more_button_style="size:btn-sm|type:btn-link" post_content_el_padding="separator:single margin-top-auto" post_content_max_width="90" grid_selector_pattern="7n+1" _selector_grid_columns="desktop:12|tablet:12" grid_selector_post_layout="imgtxt" post_selector_alignment_h="center" post_selector_text_alignment_h="left" post_selector_content_max_width="80" grid_selector_title_typo="size-class:h2-size" animation="from-bottom" animation_delay="150"][/vc_column][/vc_row]',
+      'category' => 'loop',
+      'image' => '0.3/loop_grid-first-ext-2-columns_slim_inf-pagination.jpg',
+    ),
+    array(
+      'id' => 'hero_h2-size-gradient_slim_dark-bg',
+      'name' => 'Hero - H2-Size Gradient H-Centered - Slim (880px) - Dark BG',
+      'content' => '[vc_row row_column_alignment_h="center" row_container_width_custom="880"][vc_column][vc_custom_heading heading_text="Maecenas a convallis massa, elementum hendrerit quam. Nulla mollis, ex sagittis aliquam finibus, orci tellus porta arcu, quis pretium erat leo in quam." heading_container="h1" heading_typography="size-class:h2-size|font-weight:700" heading_color="linear-gradient(132deg, #ffffff 0%, #c2ffec 50%, #ffffff 100%)" heading_color_backup="#ffffff"][vc_button2 title="Subscribe to omnis" button_color="btn-light" button_size="btn-lg" link="url:%23|||"][vc_empty_space][vc_text_separator][/vc_column][/vc_row]',
+      'category' => 'hero, colorful, call-to-action, button, dark-bg, titlebar',
+      'image' => '0.3/hero_h2-size-gradient_slim_dark-bg.jpg',
+    ),
+    array(
+      'id' => 'hero_pinned-heading_alt-typo_1300',
+      'name' => 'Hero - Pinned Heading - Large Subtitle - Alt Typo - 80vh Height',
+      'content' => '[vc_section section_background_color="transparent" section_scroll_pin="enabled" section_content_animation="fade-out-5"][vc_row row_section_padding="padding-top:quad" row_container_height_custom="80vh" row_container_alignment_v="top" row_background_color="transparent"][vc_column width="2/3"][vc_custom_heading heading_text="Projects." heading_container="h1" heading_typography="size-class:h5-size"][vc_custom_heading heading_text="Aliquam ultricies nunc a leo tempus." heading_container="h2" heading_typography="size-class:h1-size|font-family:Playfair Display|google-font:true|font-weight:400"][/vc_column][/vc_row][/vc_section]',
+      'category' => 'hero, heading, titlebar',
+      'image' => '0.3/hero_pinned-heading_alt-typo_1300.jpg',
+    ),
+    array(
+      'id' => 'loop_grid-rounded_no-content_full-width_inf-pagination',
+      'name' => 'Loop - Grid Rounded w/ No Content - Wide (1600px) - Infinite Pagination',
+      'content' => '[vc_row row_section_padding="padding-top:double"][vc_column][loprd_loop loop="size:12|order_by:date" _grid_columns="desktop:3" grid_columns_gap="double" grid_rows_gap="double" pagination="infinite" post_layout_ratio="1:1" post_content_layout="" post_alignment_h="center" post_alignment_v="top" post_hover_thumb="" post_hover_post="hover--post-scale-up" post_thumb_border_radius="9999" post_drop_shadow="" post_drop_shadow_thumbnail="drop-shadow" post_content_max_width="80" animation="twist-from-left" animation_delay="200" pagination_padding="padding-top:triple"][/vc_column][/vc_row]',
+      'category' => 'loop, full-width',
+      'image' => '0.3/loop_grid-rounded_no-content_full-width_inf-pagination.jpg',
+    ),
+    array(
+      'id' => 'heading_h2-title-subtitle_full-width',
+      'name' => 'Heading - H2-Size Title Subtitle - Full Width',
+      'content' => '[vc_row row_section_padding="padding-top:triple" row_section_container_width="stretched"][vc_column width="5/6" offset="vc_col-lg-8"][vc_custom_heading heading_text="We are omnis – a multidisciplinary creative agency." heading_container="h1" heading_typography="size-class:h2-size"][vc_empty_space empty_height="none"][vc_custom_heading heading_text="Fusce eu arcu placerat, sagittis ligula vitae, condimentum justo. Aenean varius lacinia tristique non pellentesque lectus." heading_container="p" heading_typography="size-class:h2-size"][/vc_column][/vc_row]',
+      'category' => 'heading, full-width, titlebar',
+      'image' => '0.3/heading_h2-title-subtitle_full-width.jpg',
+    ),
+    array(
+      'id' => 'loop_3-columns-w-extended-wide-grid_full-width',
+      'name' => 'Loop - 3 Columns w/ Extended Wide - Full Width - Infinite Pagination & Filtering',
+      'content' => '[vc_row row_section_container_width="stretched"][vc_column][loprd_loop loop="size:8|order_by:date" _grid_columns="desktop:4|tablet:4" grid_rows_gap="double" pagination="infinite" post_meta="`{`omnis_cats`}`" post_content_skin_custom_meta="#9e9e9e" post_drop_shadow="" post_meta_typo="font-size:22|line-height:1.4em" filters="enabled" filters_alignment="left" grid_selector_pattern="4n" _selector_grid_columns="desktop:12|tablet:12" grid_selector_post_layout_ratio="4:1" selector_ratio_display="tablet" animation="from-bottom" animation_delay="150" grid_images_max_width="1500"][/vc_column][/vc_row]',
+      'category' => 'loop, full-width',
+      'image' => '0.3/loop_3-columns-w-extended-wide-grid_full-width.jpg',
+    ),
+    array(
+      'id' => 'heading_w-subtitle-as-bg',
+      'name' => 'Heading - w/ Subtitle as BG',
+      'content' => '[vc_row row_section_padding="padding-top:triple"][vc_column][vc_custom_heading heading_text="omnis" heading_container="h2" heading_type="as-background" heading_type_bg_oneline="true" heading_typography="font-size:500|line-height:1.25em|font-weight:700" heading_color="linear-gradient(0deg, transparent 0%, rgba(0, 0, 0, 0.03) 100%)" heading_color_backup="rgba(0,0,0,0.03)" heading_advanced_h_offset="desktop:pull-double|tablet:pull-double|phone:pull-double" heading_advanced_v_offset="desktop:pull-hexa|tablet:pull-hexa|phone:pull-quad"][vc_custom_heading heading_text="Projects." heading_container="h1"][/vc_column][/vc_row]',
+      'category' => 'heading, titlebar',
+      'image' => '0.3/heading_w-subtitle-as-bg.jpg',
+    ),
+    array(
+      'id' => 'loop_grid-3x3_over-thumb-radius_filter-pagin',
+      'name' => 'Loop - Grid 3x3 - Content over Over Radius Thumb - Filtering & Pagination',
+      'content' => '[vc_row][vc_column][loprd_loop loop="size:9|order_by:date" grid_columns_gap="half" grid_rows_gap="half" pagination="paginate" post_layout="img" post_content_layout="title" post_meta="`{`omnis_cats`}`" post_alignment_h="center" post_alignment_v="bottom" post_hover_thumb="hover-thumb--scale-up" post_hover_img_content="hover-content--bottom hover--in hover--el-overflow" post_image_overlay_color="rgba(0, 0, 0, 0.3)" post_border_radius="10" post_title_typo="size-class:h5-size" filters="enabled" filters_alignment="right" animation="scale-up" animation_delay="100" pagination_padding="padding-top:double"][/vc_column][/vc_row]',
+      'category' => 'loop',
+      'image' => '0.3/loop_grid-3x3_over-thumb-radius_filter-pagin.jpg',
+    ),
+    array(
+      'id' => 'loop_classic-masonry-3-columns_infinite-pagination',
+      'name' => 'Loop - Classic Masonry 3 Columns - Pagination',
+      'content' => '[vc_row][vc_column][loprd_loop grid_layout="masonry" pagination="infinite" post_layout_ratio="" post_content_layout="title,meta,content|excerpt,more" post_read_more_button_style="" post_content_el_padding="more:single"][/vc_column][/vc_row]',
+      'category' => 'loop',
+      'image' => '0.3/loop_classic-masonry-3-columns_infinite-pagination.jpg',
+    ),
+    array(
+      'id' => 'heading_w-subtitle-as-bg_dark-bg',
+      'name' => 'Heading - w/ Subtitle as BG - Dark BG',
+      'content' => '[vc_row row_section_padding="padding-top:triple" row_content_txt_skin="txt--light" row_background_color="#1a1a1a"][vc_column][vc_custom_heading heading_text="Blog." heading_container="h2" heading_type="as-background" heading_typography="font-size:500|line-height:1.25em|font-weight:700" heading_color="linear-gradient(180deg, rgba(10, 10, 10, 0.95) 0%, transparent 65%)" heading_color_backup="rgba(0,0,0,0.03)" heading_advanced_h_offset="desktop:pull-double|tablet:pull-double|phone:pull-double" heading_advanced_v_offset="desktop:pull-hexa|tablet:pull-hexa|phone:pull-quad" animation="from-bottom" animation_duration="1200" animation_delay="600"][vc_custom_heading heading_text="Our latest news." heading_container="h1" heading_typography="font-weight:700"][/vc_column][/vc_row]',
+      'category' => 'hero, heading, dark-bg, titlebar',
+      'image' => '0.3/heading_w-subtitle-as-bg_dark-bg.jpg',
+    ),
+    array(
+      'id' => 'loop_masonry-3-col-w-first-extended_1300_infinite-pagin',
+      'name' => 'Loop - Masonry 3 Columns w/ First Extended - 1300px Width - Infinite Pagination',
+      'content' => '[vc_row row_container_width_custom="1300"][vc_column][loprd_loop grid_layout="masonry" grid_columns_gap="half" grid_rows_gap="half" pagination="infinite" post_layout_ratio="" post_content_layout="title,meta,content|excerpt,more" post_content_bg_color="#ffffff" post_content_skin_color="txt--dark" filters="enabled" filters_alignment="left" grid_selector_pattern="1" grid_selector_custom_expand="1" _selector_grid_columns="desktop:8|tablet:12" grid_selector_title_typo="size-class:h2-size" animation="from-bottom" animation_delay="100"][/vc_column][/vc_row]',
+      'category' => 'loop',
+      'image' => '0.3/loop_masonry-3-col-w-first-extended_1300_infinite-pagin.jpg',
+    ),
+    array(
+      'id' => 'heading_v-bottom_90vh_stroke-subtitle_heading-w-breadcr',
+      'name' => 'Heading - Small Title w/ Breadcrumbs & Subtitle Stroke - V-Bottom - 90vh Height',
+      'content' => '[vc_row row_container_height_custom="90vh" row_container_alignment_v="bottom"][vc_column width="5/6"][vc_row_inner row_column_alignment_v="center" row_flex_wrap="nowrap"][vc_column_inner width="auto"][vc_single_image templates__image_source="both-page-image" image_style="rounded" image_width="80" image_ratio="1:1" image_external="https://source.unsplash.com/WTSn3axynUk/80x80"][/vc_column_inner][vc_column_inner width="5/6"][vc_custom_heading heading_text="Our latest news." heading_container="h1" heading_typography="size-class:h4-size"][vc_custom_heading heading_text="`{`omnis_breadcrumbs`}`" heading_typography="size-class:font-size-small" css=".vc_custom_1547391109808{margin-top: 0px !important;}"][/vc_column_inner][/vc_row_inner][vc_empty_space empty_height="single"][vc_custom_heading heading_text="Nunc tristique sodales magna." heading_container="h2" heading_h_alignment="inline" heading_typography="size-class:h1-alt" heading_color="transparent" heading_color_stroke="#1a1a1a"][vc_empty_space][vc_icon type="material" icon_material="vc-material vc-material-arrow_downward" icon_style="bg" icon_bg_shadow="drop-shadow" icon_link_transition="to-bottom" icon_text_color="#1a1a1a" icon_bg_color="#ffffff" icon_link="url:%23more|||"][/vc_column][/vc_row]',
+      'category' => 'heading, image, icon, titlebar',
+      'image' => '0.3/heading_v-bottom_90vh_stroke-subtitle_heading-w-breadcr.jpg',
+    ),
+    array(
+      'id' => 'loop_masonry-3-col-w-first-ext_full-width_inf-pag',
+      'name' => 'Loop - Masonry 3 Columns w/ First Extended - Full Width - Infinite Pagination',
+      'content' => '[vc_row row_section_container_width="stretched"][vc_column][loprd_loop loop="size:10|order_by:date" grid_layout="masonry" _grid_columns="desktop:3|tablet:4" grid_columns_gap="double" grid_rows_gap="double" pagination="infinite" post_layout_ratio="" post_content_layout="title,meta,content|excerpt,more" post_drop_shadow="" post_read_more_button_style="size:btn-sm|type:btn-link|color:btn-light" grid_selector_pattern="1" grid_selector_custom_expand="1" _selector_grid_columns="desktop:6|tablet:8" grid_selector_title_typo="size-class:h2-size" animation="from-bottom" animation_delay="100"][/vc_column][/vc_row]',
+      'category' => 'loop, full-width',
+      'image' => '0.3/loop_masonry-3-col-w-first-ext_full-width_inf-pag.jpg',
+    ),
+    array(
+      'id' => 'loop_masonry-2-columns-no-gaps_full-width',
+      'name' => 'Loop - Masonry 2 Columns w/ No Gap - Full Width - Infinite Pagination',
+      'content' => '[vc_row row_section_padding="padding-top:none|padding-side:none" row_section_container_width="stretched"][vc_column][loprd_loop grid_layout="masonry" _grid_columns="desktop:6" grid_columns_gap="none" grid_rows_gap="none" pagination="infinite" post_layout="img" post_layout_ratio="" post_content_layout="meta,meta2,title" post_meta="`{`omnis_cats separator=`` / ```}`" post_meta2="`{`omnis_date ago=``true```}`" post_alignment_v="bottom" post_hover_img_content="hover--in" post_image_overlay_color="rgba(26, 26, 26, 0.9)" post_content_el_padding="title:single" post_content_max_width="80" post_title_typo="size-class:h4-size|font-weight:400|letter-spacing:0px" post_meta_typo="size-class:h4-size|font-weight:400|letter-spacing:0px" animation="from-bottom-long" animation_delay="100" pagination_padding="padding-top:double"][/vc_column][/vc_row]',
+      'category' => 'loop, full-width',
+      'image' => '0.3/loop_masonry-2-columns-no-gaps_full-width.jpg',
+    ),
+    array(
+      'id' => 'loop_masonry-2-columns-over_sidebar_full-width',
+      'name' => 'Loop - Masonry 2 Columns Right - Sticky Sidebar - Full Width - Infinite Pagination',
+      'content' => '[vc_row row_section_container_width="stretched" row_columns_gap="triple"][vc_column column_sticky="enabled" width="1/3" offset="vc_col-lg-3"][vc_custom_heading heading_text="News." heading_container="h1" heading_typography="size-class:h1-alt|font-family:Playfair Display|google-font:true|font-weight:400"][vc_custom_heading heading_text="Donec sollicitudin sapien vel." heading_container="p" heading_typography="size-class:leading-size"][vc_row_inner row_section_padding="padding-top:triple" row_text_typo="size-class:font-size-small" el_visibility="phone:hidden"][vc_column_inner][vc_widget_sidebar sidebar_id="main-sidebar"][/vc_column_inner][/vc_row_inner][/vc_column][vc_column width="2/3" offset="vc_col-lg-9"][loprd_loop grid_layout="masonry" _grid_columns="desktop:6|tablet:12" pagination="infinite" post_layout="img" post_layout_ratio="" post_content_layout="title,meta2" post_meta2="`{`omnis_date`}``{`omnis_permalink title=``Read article```}`" post_hover_img_content="hover--in" post_image_overlay_color="#1a1a1a" post_drop_shadow="" post_read_more_button_style="size:btn-sm|color:btn-light" post_content_padding="padding-top:double|padding-bottom:double|padding-side:double" post_content_el_padding="more:single|meta-2:single" post_content_max_width="90" post_title_typo="font-family:Playfair Display|google-font:true|font-weight:400|size-class:h3-size" animation="from-bottom" animation_delay="200"][/vc_column][/vc_row]',
+      'category' => 'loop, full-width',
+      'image' => '0.3/loop_masonry-2-columns-over_sidebar_full-width.jpg',
+    ),
+    array(
+      'id' => 'loop_masonry-grid-metro-squared-one-gap_full-width_dark-bg_inf-pag',
+      'name' => 'Loop - Masonry Grid Squared (Metro) w/ One Gap - Full Width - Dark BG - Infinite Pagination',
+      'content' => '[vc_row row_section_padding="padding-side:none|padding-top:one|padding-bottom:one" row_section_container_width="stretched"][vc_column][loprd_loop loop="size:6|order_by:date" grid_layout="masonry" _grid_columns="desktop:3" grid_columns_gap="one" grid_rows_gap="one" pagination="infinite" post_layout="img" post_layout_ratio="1:1" grid_layout_adjust="adjusted" post_content_layout="meta,title" post_meta="`{`omnis_cats separator=`` / ```}``{`omnis_permalink title=``View project```}`" post_meta2="`{`omnis_cats separator=`` - ```}`" post_alignment_h="left" post_alignment_v="bottom" post_hover_thumb="hover-thumb--scale-up" post_hover_img_content="hover-content--bottom hover--in hover--el-overflow" post_image_overlay_color="rgba(26, 26, 26, 0.95)" post_content_skin_custom_meta="rgba(255,255,255,0.55)" post_drop_shadow="drop-shadow--hover" post_content_max_width="80" post_title_typo="size-class:h4-size" post_meta_typo="size-class:body-size" grid_selector_pattern="3n-2" _selector_grid_columns="desktop:6|tablet:12" post_selector_content_max_width="50" grid_selector_title_typo="size-class:h3-size" animation="from-bottom" animation_delay="100" pagination_top_gap="double"][/vc_column][/vc_row]',
+      'category' => 'loop, full-width, dark-bg',
+      'image' => '0.3/loop_masonry-grid-metro-squared-one-gap_full-width_dark-bg_inf-pag.jpg',
     ),
   );
 

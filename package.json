@@ -1,0 +1,27 @@
+{
+  "name": "omnis-studio",
+  "version": "1.0.0",
+  "main": "Gruntfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "grunt": "^1.0.4",
+    "grunt-contrib-compress": "^1.5.0"
+  },
+  "dependencies": {
+    "grunt": "^1.0.4",
+    "grunt-contrib-compress": "^1.5.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yerooleopard/omnis-core.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yerooleopard/omnis-core/issues"
+  },
+  "homepage": "https://github.com/yerooleopard/omnis-core#readme",
+  "description": ""
+}
