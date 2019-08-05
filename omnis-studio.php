@@ -3,13 +3,13 @@
 /**
  *
  * @link              loprd.pl
- * @since             1.0.0
+ * @since             0.1
  * @package           Omnis_Studio
  *
  * Plugin Name:       Omnis Studio
  * Plugin URI:        loprd.pl
  * Description:       Omnis Studio plugin.
- * Version:           1.0.0
+ * Version:           0.1
  * Author:            Adrian Lampart
  * Author URI:        loprd.pl
  * License:           GPL-2.0+
