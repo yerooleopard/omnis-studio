@@ -248,6 +248,33 @@
     vertical-align: middle;
 }
 
+.omnis-studio__template-categories .omnis-studio__template-inner {
+    border-radius: 100px;
+}
+.omnis-studio__template-categories .omnis-studio__template-inner a {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    padding-left: 20px;
+    text-decoration: none;
+    font-size: 1.1em;
+}
+.omnis-studio__template-categories .omnis-studio__template-inner span {
+    background: rgba(0, 0, 0, 0.05);
+    right: 0;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.8em;
+    color: #949494;
+    font-weight: bold;
+}
+
 .omnis-studio__template-content {
     display: flex;
     flex: 1;

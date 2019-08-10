@@ -115,7 +115,7 @@ class Omnis_VC_Studio {
       $category['output'] .= '<div class="vc_column vc_col-md-3 omnis-studio__categories-column"><div class="omnis-studio__categories">';
       $category['output'] .= '<ul class="omnis-studio__categories-list">';
       if (!empty($_elements_categories_list)) {
-        $category['output'] .= '<li class="omnis-studio__categories-el active"><a data-name="" href="#all">'. esc_html__('All', 'omnis') .'</a><span class="omnis-studio__categories-count">'. count($category['templates']) .'</span></li>';
+        $category['output'] .= '<li class="omnis-studio__categories-el active"><a data-name="none" href="#none"><strong>'. esc_html__('Categories', 'omnis') .'</strong></a><span class="omnis-studio__categories-count">'. count($category['templates']) .' '. esc_html('Items', 'omnis') .'</span></li>';
   
         foreach ($_elements_categories_list as $_cat_key => $_cat_count) {
           $_cat_key_unslug = str_replace('-', ' ', $_cat_key);
@@ -130,6 +130,14 @@ class Omnis_VC_Studio {
       <div class="vc_column vc_col-sm-9 omnis-studio__templates-column">
         <div class="omnis-studio__templates vc_row vc_ui-template-list vc_templates-list-default_templates vc_ui-list-bar" data-vc-action="collapseAll">';
       if ( ! empty( $category['templates'] ) ) {
+        foreach ( $_elements_categories_list as $_category_name => $_cat_count) {
+          $_category_name_display = str_replace('-', ' ', $_category_name);
+          $_category_name_display = str_replace(',', ', ', $_category_name_display);
+          $_category_name_display = ucwords($_category_name_display);
+
+          $category['output'] .= '<div class="omnis-studio__template omnis-studio__template-categories" data-filter-category="none"><div class="vc_ui-list-bar-item omnis-studio__template-inner"><a href="#" data-name="'. esc_attr($_category_name) .'">'. esc_html($_category_name_display) .'<span>'. intval($_cat_count) .'</span></a></div></div>';
+        }
+
         foreach ( $category['templates'] as $template ) {
           $category['output'] .= $this->omnis_studio_renderTemplateListItem( $template );
         }
@@ -173,7 +181,7 @@ class Omnis_VC_Studio {
 
     if ($template_image) {
       $output .= '<div class="omnis-studio__template-thumb">';
-      $output .= '<a href="#" data-image-preview="'. esc_attr($_template_preview) .'" data-title="'. esc_attr($template_name) .'"><img src="'. esc_url($_template_thumb) .'" alt="'. esc_attr($template_name) .'" /></a>';
+      $output .= '<a href="#" data-image-preview="'. esc_attr($_template_preview) .'" data-title="'. esc_attr($template_name) .'"><img src="data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAABCAQAAACx6dw/AAAADUlEQVR42mNk4GEAAgAASgAO9LvNeQAAAABJRU5ErkJggg==" data-src="'. esc_url($_template_thumb) .'" alt="'. esc_attr($template_name) .'" /></a>';
       $output .= '</div>';
     }
     $output .= '<div class="omnis-studio__template-content">';
@@ -198,7 +206,7 @@ class Omnis_VC_Studio {
     $_template_category = esc_attr( isset( $template['category'] ) ? str_replace(',', ' ', $template['category']) : 'content' );
   
     $output = <<<HTML
-          <div class="omnis-studio__template vc_ui-template vc_templates-template-type-$template_type $custom_class"
+          <div class="omnis-studio__template vc_ui-template filter--hidden vc_templates-template-type-$template_type $custom_class"
             data-template_id="$template_id"
             data-template_id_hash="$template_id_hash"
             data-category="$template_type"
