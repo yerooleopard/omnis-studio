@@ -191,6 +191,9 @@
 .omnis-studio__template.filter--hidden {
     display: none !important;
 }
+[data-vc-template-search="true"] .omnis-studio__template.filter--hidden[style*="block"] {
+    display: block !important;
+}
 
 .omnis-studio__template-thumb {
     padding: 10px;
