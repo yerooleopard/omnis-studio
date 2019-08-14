@@ -2672,6 +2672,20 @@ function omnis_vc_studio_elements() {
       'category' => 'hero, dark-bg, titlebar',
       'image' => '0.4/hero_heading-w-breadcrumb_dark-bg.jpg',
     ),
+    array(
+      'id' => 'heading-vertical_separator',
+      'name' => 'Heading Vertical - w/ Separator Dark',
+      'content' => '[vc_row row_flex_wrap="nowrap"][vc_column width="1/2"][vc_text_separator separator_width="small" separator_line_color="#1a1a1a"][/vc_column][vc_column column_alignment_h="right" width="1/2"][vc_custom_heading heading_text="Introduction" heading_container="h5" heading_type_bg_direction="vertical"][/vc_column][/vc_row]',
+      'category' => 'heading, separator',
+      'image' => '0.4/heading-vertical_separator.jpg',
+    ),
+    array(
+      'id' => 'loop_grid-3-columns_bordered-1-gap_over-img',
+      'name' => 'Loop - Grid 3 Columns - Bordered 1px Gap - Content Over Thumb Centered',
+      'content' => '[vc_section section_background_color="#fafafa"][vc_row row_flex_wrap="nowrap"][vc_column width="1/2"][vc_text_separator separator_width="small" separator_line_color="#1a1a1a"][/vc_column][vc_column column_alignment_h="right" width="1/2"][vc_custom_heading heading_text="Related" heading_container="h5" heading_type_bg_direction="vertical"][/vc_column][/vc_row][vc_row][vc_column column_padding="padding-top:one|padding-bottom:one|padding-side:one" column_background_color="#1a1a1a"][loprd_loop loop="size:3|order_by:date" grid_columns_gap="one" grid_rows_gap="one" post_layout="img" post_meta="`{`omnis_date ago=``true`` prepend=``about ```}`" post_alignment_h="center" post_hover_thumb="" post_hover_img_content="hover-content--bottom hover--out hover--el-overflow" post_image_overlay_color="#fafafa" post_content_skin_color="txt--dark" post_content_skin_custom_meta="#cccccc" post_drop_shadow="" post_content_padding="padding-top:double|padding-bottom:double|padding-side:double" post_content_el_padding="meta:single" post_meta_typo="size-class:body-size"][/vc_column][/vc_row][/vc_section]',
+      'category' => 'loop, loop-related',
+      'image' => '0.4/loop_grid-3-columns_bordered-1-gap_over-img.jpg',
+    ),
   );
 
   return $studio_elements_data;
