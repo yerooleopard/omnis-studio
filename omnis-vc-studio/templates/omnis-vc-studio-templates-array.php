@@ -2686,6 +2686,28 @@ function omnis_vc_studio_elements() {
       'category' => 'loop, loop-related',
       'image' => '0.4/loop_grid-3-columns_bordered-1-gap_over-img.jpg',
     ),
+    // 0.5
+    array(
+      'id' => 'services_blocks-3-col-w-icon_colorful',
+      'name' => 'Services - 3 Columns White Block w/ Icon - Colorful',
+      'content' => '[vc_row row_background_color="#f5f0ea" row_column_content_alignment_v="top" row_rows_gap="single"][vc_column column_padding="padding-top:fluid-double|padding-bottom:fluid-double|padding-side:fluid-double" column_background_color="#ffffff" width="1/3"][vc_row_inner columns_animation="from-bottom"][vc_column_inner][vc_icon type="material" icon_material="vc-material vc-material-assignment_turned_in" icon_text_skin="txt--light" icon_style="bg" icon_bg_shadow="drop-shadow" icon_bg_padding_size="3x" icon_link_transition="" icon_bg_color="#dcc4a7"][vc_custom_heading heading_text="Morbi turpis nunc." heading_container="h3"][vc_column_text]Phasellus tempor ligula quis lectus gravida vehicula. Pellentesque sapien sapien, finibus ac sa.[/vc_column_text][/vc_column_inner][/vc_row_inner][/vc_column][vc_column column_padding="padding-top:fluid-double|padding-bottom:fluid-double|padding-side:fluid-double" column_background_color="#ffffff" width="1/3"][vc_row_inner columns_animation="from-bottom"][vc_column_inner][vc_icon type="material" icon_material="vc-material vc-material-audiotrack" icon_text_skin="txt--light" icon_style="bg" icon_bg_shadow="drop-shadow" icon_bg_padding_size="3x" icon_link_transition="" icon_bg_color="#dcc4a7"][vc_custom_heading heading_text="Orci varius natoque penatibus." heading_container="h3"][vc_column_text]Morbi turpis nunc, rhoncus eu bibendum vel, vestibPulum eget ante.[/vc_column_text][/vc_column_inner][/vc_row_inner][/vc_column][vc_column column_padding="padding-top:fluid-double|padding-bottom:fluid-double|padding-side:fluid-double" column_background_color="#ffffff" width="1/3"][vc_row_inner columns_animation="from-bottom"][vc_column_inner column_hover_options="hide-content" column_hover_url_button_style="color:btn-light|size:btn-lg" column_hover_url="url:%23|title:Learn%20more||"][vc_icon type="material" icon_material="vc-material vc-material-dashboard" icon_text_skin="txt--light" icon_style="bg" icon_bg_shadow="drop-shadow" icon_bg_padding_size="3x" icon_link_transition="" icon_bg_color="#dcc4a7"][vc_custom_heading heading_text="Aliquam ut sodales ligula." heading_container="h3"][vc_column_text]In laoreet pharetra nibh. Nullam sit amet elit sit amet ex ullamcorper.[/vc_column_text][vc_icon type="material" icon_material="vc-material vc-material-arrow_forward" icon_typography="font-size:24px" icon_text_skin="txt--dark" icon_style="bg" icon_link_transition="" icon_bg_color="#f5f0ea"][/vc_column_inner][/vc_row_inner][/vc_column][/vc_row]',
+      'category' => 'services, colorful',
+      'image' => '0.5/services_blocks-3-col-w-icon_colorful.jpg',
+    ),
+    array(
+      'id' => 'loop_multiple-loops_mixed-columns_square-wide',
+      'name' => 'Loop - Multiple Loops - Mixed Columns - Square + Wide + Square - w/ Heading',
+      'content' => '[vc_row row_rows_gap="double"][vc_column width="1/3"][vc_custom_heading heading_text="My latest projects." heading_container="h2" heading_typography="size-class:h1-alt" heading_color="#dedede"][/vc_column][vc_column width="2/3"][loprd_loop loop="size:2|order_by:date" _loop_advanced_options="true" loop_exclude_displayed="1" _grid_columns="desktop:6|tablet:6" post_layout_ratio="1:1" post_meta="`{`omnis_cats`}`" post_drop_shadow="" post_title_typo="size-class:h2-size" post_meta_typo="size-class:body-size"][/vc_column][vc_column width="2/3"][loprd_loop loop="size:1|order_by:date" _loop_advanced_options="true" loop_exclude_displayed="1" _grid_columns="desktop:12|tablet:12" post_layout_ratio="1:1" post_meta="`{`omnis_cats`}`" post_drop_shadow="" post_title_typo="size-class:h2-size" post_meta_typo="size-class:body-size" grid_selector_pattern="1" grid_selector_post_layout_ratio="2:1" selector_ratio_display="tablet"][/vc_column][vc_column width="1/3"][/vc_column][vc_column width="1/3"][/vc_column][vc_column width="2/3"][loprd_loop loop="size:2|order_by:date" _loop_advanced_options="true" loop_exclude_displayed="1" _grid_columns="desktop:6|tablet:6" post_layout_ratio="1:1" post_meta="`{`omnis_cats`}`" post_drop_shadow="" post_title_typo="size-class:h2-size" post_meta_typo="size-class:body-size"][/vc_column][/vc_row]',
+      'category' => 'loop',
+      'image' => '0.5/loop_multiple-loops_mixed-columns_square-wide.jpg',
+    ),
+    array(
+      'id' => 'loop_masonry-first-wide_w-heading',
+      'name' => 'Loop - Masonry First Wide - w/ Heading',
+      'content' => '[vc_row][vc_column width="2/3"][vc_custom_heading heading_text="From the blog." heading_container="h2" heading_typography="size-class:h1-alt" heading_color="#dcc4a7"][/vc_column][/vc_row][vc_row][vc_column][loprd_loop loop="size:3|order_by:date" grid_layout="masonry" post_layout_ratio="2:1" post_meta="`{`omnis_date`}``{`omnis_author`}`" post_drop_shadow="" post_content_padding="padding-bottom:single" post_content_max_width="80" post_title_typo="size-class:h2-size" post_meta_typo="size-class:body-size" grid_selector_pattern="1" _selector_grid_columns="desktop:8|tablet:12" grid_selector_post_layout_ratio="7:4" grid_selector_title_typo="font-size:46px"][/vc_column][/vc_row]',
+      'category' => 'loop, loop-related',
+      'image' => '0.5/loop_masonry-first-wide_w-heading.jpg',
+    ),
   );
 
   return $studio_elements_data;
