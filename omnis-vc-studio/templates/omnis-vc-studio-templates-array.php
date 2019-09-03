@@ -2704,7 +2704,7 @@ function omnis_vc_studio_elements() {
     array(
       'id' => 'loop_masonry-first-wide_w-heading',
       'name' => 'Loop - Masonry First Wide - w/ Heading',
-      'content' => '[vc_row][vc_column width="2/3"][vc_custom_heading heading_text="From the blog." heading_container="h2" heading_typography="size-class:h1-alt" heading_color="#dcc4a7"][/vc_column][/vc_row][vc_row][vc_column][loprd_loop loop="size:3|order_by:date" grid_layout="masonry" post_layout_ratio="2:1" post_meta="`{`omnis_date`}``{`omnis_author`}`" post_drop_shadow="" post_content_padding="padding-bottom:single" post_content_max_width="80" post_title_typo="size-class:h2-size" post_meta_typo="size-class:body-size" grid_selector_pattern="1" _selector_grid_columns="desktop:8|tablet:12" grid_selector_post_layout_ratio="7:4" grid_selector_title_typo="font-size:46px"][/vc_column][/vc_row]',
+      'content' => '[vc_row][vc_column width="2/3"][vc_custom_heading heading_text="From the blog." heading_container="h2" heading_typography="size-class:h1-alt" heading_color="#dedede"][/vc_column][/vc_row][vc_row][vc_column][loprd_loop loop="size:3|order_by:date" grid_layout="masonry" post_layout_ratio="2:1" post_meta="`{`omnis_date`}``{`omnis_author`}`" post_drop_shadow="" post_content_padding="padding-bottom:single" post_content_max_width="80" post_title_typo="size-class:h2-size" post_meta_typo="size-class:body-size" grid_selector_pattern="1" _selector_grid_columns="desktop:8|tablet:12" grid_selector_post_layout_ratio="7:4" grid_selector_title_typo="font-size:46px"][/vc_column][/vc_row]',
       'category' => 'loop, loop-related',
       'image' => '0.5/loop_masonry-first-wide_w-heading.jpg',
     ),
