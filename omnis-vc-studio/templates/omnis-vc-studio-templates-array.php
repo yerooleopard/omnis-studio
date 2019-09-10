@@ -2708,6 +2708,13 @@ function omnis_vc_studio_elements() {
       'category' => 'loop, loop-related',
       'image' => '0.5/loop_masonry-first-wide_w-heading.jpg',
     ),
+    array(
+      'id' => 'loop_one-col-extended-content_slim_no-thumb',
+      'name' => 'Loop - One Columns w/ Extended Content - No Thumb - Slim (880px) - Pagination',
+      'content' => '[vc_row row_container_width_custom="880"][vc_column][loprd_loop loop="size:4|order_by:date" _grid_columns="desktop:12|tablet:12" grid_rows_gap="quad" pagination="paginate" pagination_alignment="stretch" post_layout_thumb="0" post_content_layout="title,meta,content|content,more" post_meta="`{`omnis_author`}``{`omnis_cats`}``{`omnis_date ago=``true```}`" post_read_more_text="Open article page." post_drop_shadow="" post_read_more_button_style="width:btn-block|type:btn-outlined" post_content_el_padding="content:single|more:single|meta:half" post_title_typo="font-size:40|line-height:1.4em|font-weight:400" post_meta_typo="size-class:body-size"][/vc_column][/vc_row]',
+      'category' => 'loop',
+      'image' => '0.5/loop_one-col-extended-content_slim_no-thumb.jpg',
+    ),
   );
 
   return $studio_elements_data;

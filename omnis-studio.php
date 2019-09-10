@@ -9,7 +9,7 @@
  * Plugin Name:       Omnis Studio
  * Plugin URI:        loprd.pl
  * Description:       Omnis Studio plugin.
- * Version:           0.5
+ * Version:           0.51
  * Author:            Adrian Lampart
  * Author URI:        loprd.pl
  * License:           GPL-2.0+
