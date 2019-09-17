@@ -40,7 +40,7 @@
         panelContainerScrollPosition = null;
 
     function setCatsColHeight() {
-        var panelHeight = omnisStudio.closest('.vc_ui-panel-content-container')[0].getBoundingClientRect().height;
+        var panelHeight = (omnisStudio.closest('.vc_ui-panel-content-container').length) ? omnisStudio.closest('.vc_ui-panel-content-container')[0].getBoundingClientRect().height : 0;
 
         if (parseInt(panelHeight) !== 0) {
             omnisStudioCategoriesCol.css('height', panelHeight);
