@@ -232,8 +232,7 @@ HTML;
 	 * @since    1.0.0
 	 */
 	public function enqueue_styles() {
-    wp_enqueue_style( $this->plugin_name, plugin_dir_url( __FILE__ ) . 'css/omnis_vc_studio.css', array('js_composer'), $this->version, 'all' );
-    wp_enqueue_style( $this->plugin_name, plugin_dir_url( __FILE__ ) . 'css/omnis_vc_studio.css', array('vc_inline_css'), $this->version, 'all' );
+    wp_enqueue_style( $this->plugin_name, plugin_dir_url( __FILE__ ) . 'css/omnis_vc_studio.css', array(), $this->version, 'all' );
 	}
 
 	/**
@@ -243,7 +242,6 @@ HTML;
 	 */
 	public function enqueue_scripts() {
 		wp_enqueue_script( $this->plugin_name, plugin_dir_url( __FILE__ ) . 'js/omnis_vc_studio.js', array( 'jquery' ), $this->version, true );
-
 	}
 
 }
