@@ -48,8 +48,13 @@
         }
     }
 
+    var initResize = false;
+
     omnisStudioCategoriesCol.on('mouseenter mouseout', function() {
-        setCatsColHeight();
+        if (initResize === false) {
+            setCatsColHeight();
+            initResize = true;
+        }
     });
     $(window).on('resize', function() {
         setCatsColHeight();
