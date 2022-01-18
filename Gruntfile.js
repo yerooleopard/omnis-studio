@@ -16,6 +16,7 @@ module.exports = function(grunt){
 	                	'!.sass-cache',
 						'!.vscode',
 						'!.gitignore',
+						'!package-lock.json',
 						'!.git',
 	                	'!<%= pkg.name %>.zip',
 	                	'!_zip/**',
